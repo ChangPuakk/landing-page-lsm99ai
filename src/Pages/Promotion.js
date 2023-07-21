@@ -49,8 +49,8 @@ import notify from '../assets/Images/notify.png'
 import burgerBar from '../assets/Images/burger-menu.png'
 
 export default function Promotion() {
-  const [linkLogin, setLinkLogin] = useState("https://game.temmax168.com");
-  const [linkRegister, setLinkRegister] = useState("https://game.temmax168.com/register");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
+  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.com/register");
   const [linkHome, setLinkHome] = useState("/");
   return (
     <>

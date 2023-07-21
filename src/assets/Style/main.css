@@ -23,7 +23,9 @@
 .header .container .header--bg div.left img {
     max-width: 90px;
 }
-
+.left {
+    margin-top: 1rem;
+}
 
 .header .container .header--bg div.center {
     position: absolute;
@@ -415,14 +417,16 @@
         margin-top: 120px;
     }
 }
-
+img.img--logo {
+    margin-right: 1rem;
+}
 @media screen and (max-width: 460px){
     .header {
         max-height: 97px;
         height: 97px;
     }
     .header .container .header--bg div.left img {
-        max-width: 89px;
+        max-width: 70px;
     }
     .header .container .header--bg div.center .menu img {
         width: 44%;

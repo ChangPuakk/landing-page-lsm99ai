@@ -10,7 +10,7 @@ import footerMenuWithdraw from '../assets/Images/f-menu-withdraw.png'
 import footerMenuPromotion from '../assets/Images/f-menu-promotion.png'
 
 export default function Footer() {
-  const [linkLogin, setLinkLogin] = useState("https://game.temmax168.com");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
   return (
     <>
       <div className='footer--section'>

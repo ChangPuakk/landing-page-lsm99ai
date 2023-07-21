@@ -42,7 +42,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
 export default function Home() {
-  const [linkLogin, setLinkLogin] = useState("https://game.temmax168.com");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
   return (
     <>
       <Header />

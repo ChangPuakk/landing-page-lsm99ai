@@ -32,8 +32,8 @@ import modalContact from '../assets/Images/menu-top-contact.png'
 import modalInstall from '../assets/Images/menu-top-install.png'
 
 export default function Header() {
-  const [linkLogin, setLinkLogin] = useState("https://game.temmax168.com");
-  const [linkRegister, setLinkRegister] = useState("https://game.temmax168.com/register");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
+  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.com/register");
   const [linkHome, setLinkHome] = useState("/");
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
