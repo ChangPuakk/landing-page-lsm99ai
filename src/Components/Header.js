@@ -64,7 +64,7 @@ export default function Header() {
               <img src={headerCenter} alt="center" className='header--center' />
             </div>
             <div className='right'>
-              <a href='https://line.me/R/ti/p/@643ievtr' target='_blank' title='line'><img src={headerLine} alt="line" className='btn--line' /></a>
+              <a href='https://line.me/R/ti/p/@lsm99ai' target='_blank' title='line'><img src={headerLine} alt="line" className='btn--line' /></a>
               <img src={notify} alt="notify" className='btn--notify' onClick={handleNotificationShow} />
               <img src={burgerBar} alt="burger bar" className='btn--burgerBar' onClick={handleShow} />
             </div>

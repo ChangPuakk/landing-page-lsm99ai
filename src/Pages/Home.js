@@ -287,7 +287,7 @@ export default function Home() {
 
             <Row>
               <div className="mb mb-btn-line">
-                <a href="https://line.me/R/ti/p/@643ievtr" target="_blank">
+                <a href="https://line.me/R/ti/p/@lsm99ai" target="_blank">
                   <img
                     src={mbBtnLine}
                     alt="contact line"
