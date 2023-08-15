@@ -2,8 +2,8 @@ import React, { useState} from "react";
 import "../Style/main.css";
 import {Container, Row, Col, Tab, Tabs} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "../Pages/Header";
-import Footer from "../Pages/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 import login from "../Images/btn-login.png";
 import register from "../Images/btn-register.png";
@@ -34,10 +34,8 @@ import casino9 from "../Images/games/casino/pp.png";
 import casino10 from "../Images/games/casino/skywind.png";
 
 
-
-export default function Home() {
+export default function Casino() {
   const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
-  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.com/register");
   return (
     <>
       <div>
@@ -47,7 +45,6 @@ export default function Home() {
                 <div className="pc">
                     <div class="marquee">
                       <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
-                      {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
                     </div>
                 </div>
               <div className="container">
@@ -55,14 +52,13 @@ export default function Home() {
                   <div className="mobile">
                     <div class="marquee">
                       <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
-                      {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
                     </div>
                   </div>
 
                   <div className="mobile">
                     <div className="login-register">
                       <a href={linkLogin}><img src={login} alt="login" /></a>
-                      <a href={linkRegister}><img src={register} alt="register" /></a>
+                      <a href={linkLogin}><img src={register} alt="register" /></a>
                     </div>
                   </div>
 
@@ -90,7 +86,7 @@ export default function Home() {
                     <img src={casino10} alt="casino10" />
                   </div>
 
-                  <div className="mobile"><div className="line"><a href="https://line.me/R/ti/p/@lsm99ai" target="_blank"><img src={line} alt="line" /></a></div></div>
+                  <div className="mobile"><div className="line"><a href="/"><img src={line} alt="line" /></a></div></div>
                 </div>
                 <div className="right pc">
                   <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>

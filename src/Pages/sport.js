@@ -18,26 +18,19 @@ import line from "../Images/line.png";
 import labelPromotion from "../Images/label-promotion.png"
 import labelPlay from "../Images/label-playgames.png"
 import promo1 from "../Images/promo1.png"
-import promo2 from "../Images/promotion/lotto1.png"
-import promo3 from "../Images/promotion/slot1.png"
 
-// casino
-import casino1 from "../Images/games/casino/allbet.png";
-import casino2 from "../Images/games/casino/bacarat.png";
-import casino3 from "../Images/games/casino/wm.png";
-import casino4 from "../Images/games/casino/sa.png";
-import casino5 from "../Images/games/casino/dg.png";
-import casino6 from "../Images/games/casino/pretty.png";
-import casino7 from "../Images/games/casino/playtech.png";
-import casino8 from "../Images/games/casino/xg.png";
-import casino9 from "../Images/games/casino/pp.png";
-import casino10 from "../Images/games/casino/skywind.png";
+//sport
+import sport1 from "../Images/games/sport/3sign.png";
+import sport2 from "../Images/games/sport/lsm99.png";
+import sport3 from "../Images/games/sport/mpy.png";
+import sport4 from "../Images/games/sport/pinn.png";
+import sport5 from "../Images/games/sport/saba.png";
+import sport6 from "../Images/games/sport/sbo.png";
+import sport7 from "../Images/games/sport/slsm.png";
 
 
-
-export default function Home() {
+export default function Sport() {
   const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
-  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.com/register");
   return (
     <>
       <div>
@@ -62,7 +55,7 @@ export default function Home() {
                   <div className="mobile">
                     <div className="login-register">
                       <a href={linkLogin}><img src={login} alt="login" /></a>
-                      <a href={linkRegister}><img src={register} alt="register" /></a>
+                      <a href={linkLogin}><img src={register} alt="register" /></a>
                     </div>
                   </div>
 
@@ -78,19 +71,16 @@ export default function Home() {
                   </div>
 
                   <div className="games-all">
-                    <img src={casino1} alt="casino1" />
-                    <img src={casino2} alt="casino2" />
-                    <img src={casino3} alt="casino3" />
-                    <img src={casino4} alt="casino4" />
-                    <img src={casino5} alt="casino5" />
-                    <img src={casino6} alt="casino6" />
-                    <img src={casino7} alt="casino7" />
-                    <img src={casino8} alt="casino8" />
-                    <img src={casino9} alt="casino9" />
-                    <img src={casino10} alt="casino10" />
+                    <img src={sport1} alt="promotion" />
+                    <img src={sport2} alt="promotion" />
+                    <img src={sport3} alt="promotion" />
+                    <img src={sport4} alt="promotion" />
+                    <img src={sport5} alt="promotion" />
+                    <img src={sport6} alt="promotion" />
+                    <img src={sport7} alt="promotion" />
                   </div>
 
-                  <div className="mobile"><div className="line"><a href="https://line.me/R/ti/p/@lsm99ai" target="_blank"><img src={line} alt="line" /></a></div></div>
+                  <div className="mobile"><div className="line"><a href="/"><img src={line} alt="line" /></a></div></div>
                 </div>
                 <div className="right pc">
                   <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
