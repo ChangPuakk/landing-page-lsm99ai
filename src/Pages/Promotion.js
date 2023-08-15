@@ -1,7 +1,7 @@
-import React,{ useState} from 'react'
+import React, { useState } from 'react'
 import '../assets/Style/promotion.css';
 
-import {Container, Row, Col, Tab, Tabs} from 'react-bootstrap';
+import { Container, Row, Col, Tab, Tabs } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import menuWallet from '../assets/Images/menu-wallet.png'
@@ -24,7 +24,6 @@ import slot4 from '../assets/Images/promotion/slot4.png'
 import slot5 from '../assets/Images/promotion/slot5.png'
 import slot6 from '../assets/Images/promotion/slot6.png'
 import slot7 from '../assets/Images/promotion/slot7.png'
-import slot8 from '../assets/Images/promotion/slot8.png'
 import sport1 from '../assets/Images/promotion/sport1.png'
 import sport2 from '../assets/Images/promotion/sport2.png'
 import sport3 from '../assets/Images/promotion/sport3.png'
@@ -37,7 +36,7 @@ import sport9 from '../assets/Images/promotion/sport9.png'
 import sport10 from '../assets/Images/promotion/sport10.png'
 import sport11 from '../assets/Images/promotion/sport11.png'
 import sport12 from '../assets/Images/promotion/sport12.png'
-import sport13 from '../assets/Images/promotion/sport13.png'
+
 
 import logo from '../assets/Images/logo.png'
 
@@ -89,81 +88,80 @@ export default function Promotion() {
             </div>
 
             <Tabs defaultActiveKey="tab-1">
-                <Tab eventKey="tab-1" title="ทั้งหมด">
-                    <Row>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino1} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino2} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino3} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino4} alt="promotion" className="w-100" /></a></Col>
+              <Tab eventKey="tab-1" title="ทั้งหมด">
+                <Row>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino1} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino2} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino3} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino4} alt="promotion" className="w-100" /></a></Col>
 
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={lotto1} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={lotto1} alt="promotion" className="w-100" /></a></Col>
 
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot1} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot2} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot3} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot4} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot5} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot6} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot7} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot8} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot1} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot2} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot3} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot4} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot5} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot6} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot7} alt="promotion" className="w-100" /></a></Col>
 
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport1} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport2} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport3} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport4} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport5} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport6} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport7} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport8} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport9} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport10} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport11} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport12} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport13} alt="promotion" className="w-100" /></a></Col>
-                    </Row>
-                </Tab>
-                <Tab eventKey="tab-2" title="กีฬา">
-                    <Row>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport1} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport2} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport3} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport4} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport5} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport6} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport7} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport8} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport9} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport10} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport11} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport12} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport13} alt="promotion" className="w-100" /></a></Col>
-                    </Row>
-                </Tab>
-                <Tab eventKey="tab-3" title="คาสิโน">
-                    <Row>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino1} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino2} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino3} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino4} alt="promotion" className="w-100" /></a></Col>
-                    </Row>
-                </Tab>
-                <Tab eventKey="tab-4" title="สล็อต">
-                    <Row>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot1} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot2} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot3} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot4} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot5} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot6} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot7} alt="promotion" className="w-100" /></a></Col>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot8} alt="promotion" className="w-100" /></a></Col>
-                    </Row>
-                </Tab>
-                <Tab eventKey="tab-5" title="หวย">
-                    <Row>
-                        <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={lotto1} alt="promotion" className="w-100" /></a></Col>
-                    </Row>
-                </Tab>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport1} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport2} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport3} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport4} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport5} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport6} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport7} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport8} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport9} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport10} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport11} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport12} alt="promotion" className="w-100" /></a></Col>
+
+                </Row>
+              </Tab>
+              <Tab eventKey="tab-2" title="กีฬา">
+                <Row>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport1} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport2} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport3} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport4} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport5} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport6} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport7} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport8} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport9} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport10} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport11} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={sport12} alt="promotion" className="w-100" /></a></Col>
+
+                </Row>
+              </Tab>
+              <Tab eventKey="tab-3" title="คาสิโน">
+                <Row>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino1} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino2} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino3} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={casino4} alt="promotion" className="w-100" /></a></Col>
+                </Row>
+              </Tab>
+              <Tab eventKey="tab-4" title="สล็อต">
+                <Row>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot1} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot2} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot3} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot4} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot5} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot6} alt="promotion" className="w-100" /></a></Col>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={slot7} alt="promotion" className="w-100" /></a></Col>
+
+                </Row>
+              </Tab>
+              <Tab eventKey="tab-5" title="หวย">
+                <Row>
+                  <Col md={6} xs={12} className='games mb-2'><a href={linkLogin}><img src={lotto1} alt="promotion" className="w-100" /></a></Col>
+                </Row>
+              </Tab>
             </Tabs>
           </div>
           <div className='promotion--footer'></div>
