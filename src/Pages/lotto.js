@@ -1,6 +1,6 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import "../Style/main.css";
-import {Container, Row, Col, Tab, Tabs} from 'react-bootstrap';
+import { Container, Row, Col, Tab, Tabs } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Pages/Header";
 import Footer from "../Pages/Footer";
@@ -17,7 +17,7 @@ import line from "../Images/line.png";
 
 import labelPromotion from "../Images/label-promotion.png"
 import labelPlay from "../Images/label-playgames.png"
-import promo1 from "../Images/promo1.png"
+import promo1 from "../Images/promotion/prolotto1.png"
 
 //lotto
 import lotto1 from "../Images/games/lotto/lotto.png";
@@ -32,44 +32,44 @@ export default function Lotto() {
       <div>
         <div className="home">
           <Header />
-            <div className="main">
-                <div className="pc">
-                    <div class="marquee">
-                      <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
-                    </div>
+          <div className="main">
+            <div className="pc">
+              <div class="marquee">
+                <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
+              </div>
+            </div>
+            <div className="container">
+              <div className="left">
+                <div className="mobile">
+                  <div class="marquee">
+                    <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
+                  </div>
                 </div>
-              <div className="container">
-                <div className="left">
-                  <div className="mobile">
-                    <div class="marquee">
-                      <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
-                    </div>
+
+                <div className="mobile">
+                  <div className="login-register">
+                    <a href={linkLogin}><img src={login} alt="login" /></a>
+                    <a href={linkLogin}><img src={register} alt="register" /></a>
                   </div>
+                </div>
 
-                  <div className="mobile">
-                    <div className="login-register">
-                      <a href={linkLogin}><img src={login} alt="login" /></a>
-                      <a href={linkLogin}><img src={register} alt="register" /></a>
-                    </div>
-                  </div>
+                <div className="pc">
+                  <img src={labelPlay} alt="play" className="labels labelsPlay" />
+                </div>
 
-                  <div className="pc">
-                    <img src={labelPlay} alt="play" className="labels labelsPlay" />
-                  </div>
+                <div className="games-menu">
+                  <a href="/casino"><div className="-gamesCasino"></div></a>
+                  <a href="/slot"><div className="-gamesSlot"></div></a>
+                  <a href="/sport"><div className="-gamesSport"></div></a>
+                  <a href="/lotto"><div className="-gamesLotto"></div></a>
+                </div>
 
-                  <div className="games-menu">
-                    <a href="/casino"><div className="-gamesCasino"></div></a>
-                    <a href="/slot"><div className="-gamesSlot"></div></a>
-                    <a href="/sport"><div className="-gamesSport"></div></a>
-                    <a href="/lotto"><div className="-gamesLotto"></div></a>
-                  </div>
+                <div className="games-all">
+                  <img src={lotto1} alt="promotion" />
+                  <img src={lotto2} alt="promotion" />
+                  <img src={lotto3} alt="promotion" />
 
-                  <div className="games-all">
-                    <img src={lotto1} alt="promotion" />
-                    <img src={lotto2} alt="promotion" />
-                    <img src={lotto3} alt="promotion" />
-
-                    {/* <Tabs defaultActiveKey="tab-1">
+                  {/* <Tabs defaultActiveKey="tab-1">
                       <Tab eventKey="tab-1" title="คาสิโน">
                           <Row>
                               <Col md={4} xs={6} className='games mb-2'><a href={linkLogin}><img src={casino1} alt="promotion" className="w-100" /></a></Col>
@@ -127,21 +127,20 @@ export default function Lotto() {
                           </Row>
                       </Tab>
                   </Tabs> */}
-                  </div>
-
-                  <div className="mobile"><div className="line"><a href="/"><img src={line} alt="line" /></a></div></div>
                 </div>
-                <div className="right pc">
-                  <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
-                  <div className="promotionlist">
-                    <img src={promo1} alt="promo1" />
-                    <img src={promo1} alt="promo1" />
-                    <img src={promo1} alt="promo1" />
-                  </div>
+
+                <div className="mobile"><div className="line"><a href="/"><img src={line} alt="line" /></a></div></div>
+              </div>
+              <div className="right pc">
+                <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
+                <div className="promotionlist">
+                  <img src={promo1} alt="promo1" />
+
                 </div>
               </div>
-
             </div>
+
+          </div>
           <Footer />
         </div>
       </div>

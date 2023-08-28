@@ -17,7 +17,13 @@ import line from "../Images/line.png";
 
 import labelPromotion from "../Images/label-promotion.png"
 import labelPlay from "../Images/label-playgames.png"
-import promo1 from "../Images/promo1.png"
+
+
+import promo1 from "../Images/promotion/proslot1.png"
+import promo2 from "../Images/promotion/proslot2.png"
+import promo3 from "../Images/promotion/proslot3.png"
+import promo4 from "../Images/promotion/proslot4.png"
+import promo5 from "../Images/promotion/proslot5.png"
 
 //slot
 // import slot1 from "../Images/games/slot/ae.png";
@@ -125,9 +131,11 @@ export default function Slot() {
               <div className="right pc">
                 <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
                 <div className="promotionlist">
-                  <img src={promo1} alt="promo1" />
-                  <img src={promo1} alt="promo1" />
-                  <img src={promo1} alt="promo1" />
+                  <img src={promo1} style={{ marginBottom: "10px" }} alt="promo1" />
+                  <img src={promo2} style={{ marginBottom: "10px" }} alt="promo2" />
+                  <img src={promo3} style={{ marginBottom: "10px" }} alt="promo3" />
+                  <img src={promo4} style={{ marginBottom: "10px" }} alt="promo4" />
+                  <img src={promo5} style={{ marginBottom: "10px" }} alt="promo5" />
                 </div>
               </div>
             </div>
