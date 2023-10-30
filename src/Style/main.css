@@ -569,11 +569,11 @@ marquee {
         width: 140px;
     }
     .header .center{
-        background-image: url(../Images/logo-bg-mb.png);
+        background-image: url(../Images/logo-bg-mb.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 53px;
-        width: 175px;
+        width: 80px;
         position: absolute;
         left: 50%;
         top: 7px;
@@ -608,11 +608,11 @@ marquee {
         background-image: none;
     }
     .header .center {
-        background-image: url(../Images/logo-bg-mb.png);
+        background-image: url(../Images/logo-bg-mb.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 53px;
-        width: 175px;
+        width: 100px;
         position: absolute;
         left: 50%;
         top: 7px;
@@ -649,8 +649,7 @@ marquee {
         height: 30px;
     }
     .header .center {
-        height: 56px;
-        width: 200px;
+        width: 100px;
     }
 
     /*--- footer ---*/
