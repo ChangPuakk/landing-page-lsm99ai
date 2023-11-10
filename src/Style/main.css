@@ -20,7 +20,7 @@ p{
 }
 
 .wrapper{
-    background-image: url(../Images/bg1.png);
+    background-image: url(../Images/bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -569,7 +569,7 @@ marquee {
         width: 140px;
     }
     .header .center{
-        background-image: url(../Images/logo-bg-mb.gif);
+        background-image: url(../Images/logo-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 53px;
@@ -608,7 +608,7 @@ marquee {
         background-image: none;
     }
     .header .center {
-        background-image: url(../Images/logo-bg-mb.gif);
+        background-image: url(../Images/logo-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 53px;
