@@ -25,7 +25,7 @@ p {
 }
 
 .wrapper {
-    background-image: url(../Images/bg.png);
+    background-image: url(../Images/bg-m-h.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -759,7 +759,7 @@ marquee {
     }
 
     .wrapper {
-        background-image: url(../Images/bg.png);
+        background-image: url(../Images/bg-h.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
