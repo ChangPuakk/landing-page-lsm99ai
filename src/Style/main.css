@@ -25,7 +25,7 @@ p {
 }
 
 .wrapper {
-    background-image: url(../Images/bg-m-h.png);
+    background-image: url(../Images/bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -81,7 +81,7 @@ p {
 }
 
 .header .center {
-    background-image: url(../Images/logo.gif);
+    background-image: url(../Images/logo.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 50px;
@@ -633,7 +633,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo-bg-mb.gif);
+        background-image: url(../Images/logo.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 53px;
@@ -677,7 +677,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo-bg-mb.gif);
+        background-image: url(../Images/logo.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 53px;
@@ -759,7 +759,7 @@ marquee {
     }
 
     .wrapper {
-        background-image: url(../Images/bg-h.png);
+        background-image: url(../Images/bg.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
