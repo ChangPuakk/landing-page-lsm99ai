@@ -636,7 +636,7 @@ marquee {
         background-image: url(../Images/logo.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 60px;
+        height: 65px;
         width: 80px;
         position: absolute;
         left: 50%;
@@ -680,7 +680,7 @@ marquee {
         background-image: url(../Images/logo.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 60px;
+        height: 65px;
         width: 85px;
         position: absolute;
         left: 50%;
