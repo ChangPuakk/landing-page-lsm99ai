@@ -636,7 +636,7 @@ marquee {
         background-image: url(../Images/logo.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 53px;
+        height: 60px;
         width: 80px;
         position: absolute;
         left: 50%;
@@ -680,7 +680,7 @@ marquee {
         background-image: url(../Images/logo.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 73px;
+        height: 60px;
         width: 85px;
         position: absolute;
         left: 50%;
@@ -721,7 +721,7 @@ marquee {
     }
 
     .header .center {
-        width: 85px;
+        width: 68px;
     }
 
     /*--- footer ---*/
