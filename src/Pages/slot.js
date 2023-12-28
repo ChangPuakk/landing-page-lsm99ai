@@ -56,7 +56,7 @@ import slot26 from "../Images/games/slot/sp.png";
 
 
 export default function Slot() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
   return (
     <>
       <div>

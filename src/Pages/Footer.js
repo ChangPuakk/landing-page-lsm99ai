@@ -7,7 +7,7 @@ import footerPlay from "../Images/footer-play.png";
 import footerAffiliate from "../Images/footer-aff.png";
 import footerPromotion from "../Images/footer-promotion.png";
 export default function Footer() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
   return (
     <>
       <div>

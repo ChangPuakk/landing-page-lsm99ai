@@ -36,8 +36,8 @@ import casino10 from "../Images/games/casino/skywind.png";
 
 
 export default function Home() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
-  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.com/register");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
+  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.asia/register");
   return (
     <>
       <div>

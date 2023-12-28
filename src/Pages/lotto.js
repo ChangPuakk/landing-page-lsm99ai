@@ -26,7 +26,7 @@ import lotto3 from "../Images/games/lotto/qq.png";
 
 
 export default function Lotto() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
   return (
     <>
       <div>

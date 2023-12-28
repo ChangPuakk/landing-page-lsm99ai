@@ -48,7 +48,7 @@ import sport12 from '../Images/promotion/sport12.png'
 
 
 export default function Promotion() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
   return (
     <>
       <div>

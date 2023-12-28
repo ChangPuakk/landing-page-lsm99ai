@@ -11,8 +11,8 @@ import login from "../Images/btn-login-pc.png";
 import register from "../Images/btn-register-pc.png";
 
 export default function Header() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.com/login");
-  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.com/register");
+  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
+  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.asia/register");
   const [linkHome, setLinkHome] = useState("/");
   return (
     <>
