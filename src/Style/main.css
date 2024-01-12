@@ -25,7 +25,7 @@ p {
 }
 
 .wrapper {
-    background-image: url(../Images/bg-m-h2.png);
+    background-image: url(../Images/bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -81,7 +81,7 @@ p {
 }
 
 .header .center {
-    background-image: url(../Images/logo.gif);
+    background-image: url(../Images/logo.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 50px;
@@ -633,7 +633,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo.gif);
+        background-image: url(../Images/logo.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 65px;
@@ -677,11 +677,11 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo.gif);
+        background-image: url(../Images/logo.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 65px;
-        width: 85px;
+        height: 55px;
+        width: 65px;
         position: absolute;
         left: 50%;
         top: 7px;
@@ -759,7 +759,7 @@ marquee {
     }
 
     .wrapper {
-        background-image: url(../Images/bg2.png);
+        background-image: url(../Images/bg.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
