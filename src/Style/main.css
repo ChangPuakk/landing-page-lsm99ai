@@ -81,7 +81,7 @@ p {
 }
 
 .header .center {
-    background-image: url(../Images/logo.png);
+    background-image: url(../Images/logo-cny.gif);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 50px;
@@ -580,6 +580,19 @@ marquee {
 
 
 
+
+.wrapper {
+    background-image: url(../Images/bg-m.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+
+
 /*--- footer ---*/
 .line {
     margin-top: 1rem;
@@ -633,7 +646,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo.png);
+        background-image: url(../Images/logo-cny.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 65px;
@@ -677,7 +690,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo.png);
+        background-image: url(../Images/logo-cny.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 55px;
