@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Style/main.css";
 
-// import logo from "../Images/logo.png";
+// import logo from "../Images/AI-CNY.gif";
 import headerCoin from "../Images/icon-coid.png";
 import headerNofi from "../Images/icon-nofi.png";
 import headerBurger from "../Images/icon-burger.png";
