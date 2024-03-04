@@ -25,7 +25,7 @@ p {
 }
 
 .wrapper {
-    background-image: url(../Images/bg.png);
+    background-image: url(../Images/bgmb.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -680,8 +680,8 @@ marquee {
         background-image: url(../Images/logo.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 55px;
-        width: 65px;
+        height: 60px;
+        width: 75px;
         position: absolute;
         left: 50%;
         top: 7px;
@@ -721,7 +721,7 @@ marquee {
     }
 
     .header .center {
-        width: 62px;
+        width: 75px;
     }
 
     /*--- footer ---*/
