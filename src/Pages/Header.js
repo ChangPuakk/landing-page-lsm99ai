@@ -28,8 +28,8 @@ export default function Header() {
             </div> */}
             <div className="pc">
               <div className="login-register">
-                  <a href={linkLogin}><img src={login} alt="login" /></a>
-                  <a href={linkRegister}><img src={register} alt="register" /></a>
+                <a href={linkLogin}><img src={login} alt="login" /></a>
+                <a href={linkRegister}><img src={register} alt="register" /></a>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Header() {
           </a>
           <div class="right">
             <div className="container-right">
-              <div className="line-pc"><a href="https://line.me/R/ti/p/@lsm99ai" target="_blank"><img src={headerLine} alt="line" className="pc" /></a></div>
+              <div className="line-pc"><a href="https://lin.ee/izXwWe4" target="_blank"><img src={headerLine} alt="line" className="pc" /></a></div>
               <div className="notification"><a href={linkLogin}><img src={headerNofi} alt="notification" /></a></div>
               <div className="burger"><a href={linkLogin}><img src={headerBurger} alt="hamburger bar" /></a></div>
             </div>

@@ -1,6 +1,6 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import "../Style/main.css";
-import {Container, Row, Col, Tab, Tabs} from 'react-bootstrap';
+import { Container, Row, Col, Tab, Tabs } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Pages/Header";
 import Footer from "../Pages/Footer";
@@ -43,66 +43,66 @@ export default function Home() {
       <div>
         <div className="home">
           <Header />
-            <div className="main">
+          <div className="main">
+            <div className="pc">
+              <div class="marquee">
+                <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
+                {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
+              </div>
+            </div>
+            <div className="container">
+              <div className="left">
+                <div className="mobile">
+                  <div class="marquee">
+                    <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
+                    {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
+                  </div>
+                </div>
+
+                <div className="mobile">
+                  <div className="login-register">
+                    <a href={linkLogin}><img src={login} alt="login" /></a>
+                    <a href={linkRegister}><img src={register} alt="register" /></a>
+                  </div>
+                </div>
+
                 <div className="pc">
-                    <div class="marquee">
-                      <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
-                      {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
-                    </div>
+                  <img src={labelPlay} alt="play" className="labels labelsPlay" />
                 </div>
-              <div className="container">
-                <div className="left">
-                  <div className="mobile">
-                    <div class="marquee">
-                      <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
-                      {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
-                    </div>
-                  </div>
 
-                  <div className="mobile">
-                    <div className="login-register">
-                      <a href={linkLogin}><img src={login} alt="login" /></a>
-                      <a href={linkRegister}><img src={register} alt="register" /></a>
-                    </div>
-                  </div>
-
-                  <div className="pc">
-                    <img src={labelPlay} alt="play" className="labels labelsPlay" />
-                  </div>
-
-                  <div className="games-menu">
-                    <a href="/casino"><div className="-gamesCasino"></div></a>
-                    <a href="/slot"><div className="-gamesSlot"></div></a>
-                    <a href="/sport"><div className="-gamesSport"></div></a>
-                    <a href="/lotto"><div className="-gamesLotto"></div></a>
-                  </div>
-
-                  <div className="games-all">
-                    <img src={casino1} alt="casino1" />
-                    <img src={casino2} alt="casino2" />
-                    <img src={casino3} alt="casino3" />
-                    <img src={casino4} alt="casino4" />
-                    <img src={casino5} alt="casino5" />
-                    <img src={casino6} alt="casino6" />
-                    <img src={casino7} alt="casino7" />
-                    <img src={casino8} alt="casino8" />
-                    <img src={casino9} alt="casino9" />
-                    <img src={casino10} alt="casino10" />
-                  </div>
-
-                  <div className="mobile"><div className="line"><a href="https://line.me/R/ti/p/@lsm99ai" target="_blank"><img src={line} alt="line" /></a></div></div>
+                <div className="games-menu">
+                  <a href="/casino"><div className="-gamesCasino"></div></a>
+                  <a href="/slot"><div className="-gamesSlot"></div></a>
+                  <a href="/sport"><div className="-gamesSport"></div></a>
+                  <a href="/lotto"><div className="-gamesLotto"></div></a>
                 </div>
-                <div className="right pc">
-                  <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
-                  <div className="promotionlist">
-                    <img src={promo1} alt="promo1" />
-                    <img src={promo1} alt="promo1" />
-                    <img src={promo1} alt="promo1" />
-                  </div>
+
+                <div className="games-all">
+                  <img src={casino1} alt="casino1" />
+                  <img src={casino2} alt="casino2" />
+                  <img src={casino3} alt="casino3" />
+                  <img src={casino4} alt="casino4" />
+                  <img src={casino5} alt="casino5" />
+                  <img src={casino6} alt="casino6" />
+                  <img src={casino7} alt="casino7" />
+                  <img src={casino8} alt="casino8" />
+                  <img src={casino9} alt="casino9" />
+                  <img src={casino10} alt="casino10" />
+                </div>
+
+                <div className="mobile"><div className="line"><a href="https://lin.ee/izXwWe4" target="_blank"><img src={line} alt="line" /></a></div></div>
+              </div>
+              <div className="right pc">
+                <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
+                <div className="promotionlist">
+                  <img src={promo1} alt="promo1" />
+                  <img src={promo1} alt="promo1" />
+                  <img src={promo1} alt="promo1" />
                 </div>
               </div>
-
             </div>
+
+          </div>
           <Footer />
         </div>
       </div>
