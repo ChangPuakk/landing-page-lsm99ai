@@ -91,7 +91,7 @@ export default function Home() {
                 </div>
 
                 <div className="mobile">
-                  {/* <div className="line"><a href="https://lin.ee/izXwWe4" target="_blank"><img src={line} alt="line" /></a></div> */}
+                  <div className="line"><a href="https://lin.ee/izXwWe4" target="_blank"><img src={line} alt="line" /></a></div>
                 </div>
               </div>
               <div className="right pc">
