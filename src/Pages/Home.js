@@ -62,7 +62,7 @@ export default function Home() {
                 <div className="mobile">
                   <div className="login-register">
                     <a href={linkLogin}><img src={login} alt="login" /></a>
-                    <a href={linkRegister}><img src={register} alt="register" /></a>
+                    {/* <a href={linkRegister}><img src={register} alt="register" /></a> */}
                   </div>
                 </div>
 
@@ -90,7 +90,9 @@ export default function Home() {
                   <img src={casino10} alt="casino10" />
                 </div>
 
-                <div className="mobile"><div className="line"><a href="https://lin.ee/izXwWe4" target="_blank"><img src={line} alt="line" /></a></div></div>
+                <div className="mobile">
+                  {/* <div className="line"><a href="https://lin.ee/izXwWe4" target="_blank"><img src={line} alt="line" /></a></div> */}
+                </div>
               </div>
               <div className="right pc">
                 <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
