@@ -680,8 +680,8 @@ marquee {
         background-image: url(../Images/logo-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 60px;
-        width: 200px;
+        height: 70px;
+        width: 240px;
         position: absolute;
         left: 50%;
         top: 7px;
@@ -718,10 +718,6 @@ marquee {
     /*--- header ---*/
     .header .left {
         height: 30px;
-    }
-
-    .header .center {
-        width: 210px;
     }
 
     /*--- footer ---*/
