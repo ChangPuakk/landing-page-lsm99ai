@@ -25,7 +25,7 @@ p {
 }
 
 .wrapper {
-    background-image: url(../Images/bgmb.png);
+    background-image: url(../Images/bgmb-original.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -81,7 +81,7 @@ p {
 }
 
 .header .center {
-    background-image: url(../Images/logo.gif);
+    background-image: url(../Images/logo-bg-mb.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 50px;
@@ -248,7 +248,7 @@ marquee {
 
 /*--- footer gif ---*/
 .-img-wallet {
-    background-image: url(../Images/footer/wallet.png);
+    background-image: url(../Images/footer/original-wallet.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -258,7 +258,7 @@ marquee {
 }
 
 .-img-wallet:hover {
-    background-image: url(../Images/footer/wallet-hover.gif);
+    background-image: url(../Images/footer/original-wallet-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -278,7 +278,7 @@ marquee {
 }
 
 .-img-deposit {
-    background-image: url(../Images/footer/deposit.png);
+    background-image: url(../Images/footer/original-deposit.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -288,7 +288,7 @@ marquee {
 }
 
 .-img-deposit:hover {
-    background-image: url(../Images/footer/deposit-hover.gif);
+    background-image: url(../Images/footer/original-deposit-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -308,7 +308,7 @@ marquee {
 }
 
 .-img-play {
-    background-image: url(../Images/footer/play.png);
+    background-image: url(../Images/footer/original-play.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -318,7 +318,7 @@ marquee {
 }
 
 .-img-play:hover {
-    background-image: url(../Images/footer/play-hover.gif);
+    background-image: url(../Images/footer/original-play-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -338,7 +338,7 @@ marquee {
 }
 
 .-img-affiliate {
-    background-image: url(../Images/footer/aff.png);
+    background-image: url(../Images/footer/original-aff.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -348,7 +348,7 @@ marquee {
 }
 
 .-img-affiliate:hover {
-    background-image: url(../Images/footer/aff-hover.gif);
+    background-image: url(../Images/footer/original-aff-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -369,7 +369,7 @@ marquee {
 
 
 .-img-promotion {
-    background-image: url(../Images/footer/promo.png);
+    background-image: url(../Images/footer/original-promo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,7 +379,7 @@ marquee {
 }
 
 .-img-promotion:hover {
-    background-image: url(../Images/footer/promo-hover.gif);
+    background-image: url(../Images/footer/original-promo-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -400,7 +400,7 @@ marquee {
 
 
 .-gamesCasino {
-    background-image: url(../Images/menu-games/casino-active.png);
+    background-image: url(../Images/menu-games/original-casino-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -409,7 +409,7 @@ marquee {
 }
 
 .-gamesCasino:hover {
-    background-image: url(../Images/menu-games/casino-hover.gif);
+    background-image: url(../Images/menu-games/original-casino-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -418,7 +418,7 @@ marquee {
 }
 
 .-gamesCasino:active {
-    background-image: url(../Images/menu-games/casino.png);
+    background-image: url(../Images/menu-games/original-casino.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -428,7 +428,7 @@ marquee {
 
 
 .-gamesSlot {
-    background-image: url(../Images/menu-games/slot-active.png);
+    background-image: url(../Images/menu-games/original-slot-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -437,7 +437,7 @@ marquee {
 }
 
 .-gamesSlot:hover {
-    background-image: url(../Images/menu-games/slot-hover.gif);
+    background-image: url(../Images/menu-games/original-slot-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -446,7 +446,7 @@ marquee {
 }
 
 .-gamesSlot:active {
-    background-image: url(../Images/menu-games/slot.png);
+    background-image: url(../Images/menu-games/original-slot.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -456,7 +456,7 @@ marquee {
 
 
 .-gamesSport {
-    background-image: url(../Images/menu-games/sport-active.png);
+    background-image: url(../Images/menu-games/original-sport-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -465,7 +465,7 @@ marquee {
 }
 
 .-gamesSport:hover {
-    background-image: url(../Images/menu-games/sport-hover.gif);
+    background-image: url(../Images/menu-games/original-sport-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -474,7 +474,7 @@ marquee {
 }
 
 .-gamesSport:active {
-    background-image: url(../Images/menu-games/sport.png);
+    background-image: url(../Images/menu-games/original-sport.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -484,7 +484,7 @@ marquee {
 
 
 .-gamesLotto {
-    background-image: url(../Images/menu-games/lotto-active.png);
+    background-image: url(../Images/menu-games/original-lotto-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -493,7 +493,7 @@ marquee {
 }
 
 .-gamesLotto:hover {
-    background-image: url(../Images/menu-games/lotto-hover.gif);
+    background-image: url(../Images/menu-games/original-lotto-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -502,7 +502,7 @@ marquee {
 }
 
 .-gamesLotto:active {
-    background-image: url(../Images/menu-games/lotto.png);
+    background-image: url(../Images/menu-games/original-lotto.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -633,7 +633,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo.gif);
+        background-image: url(../Images/logo-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 90px;
@@ -677,11 +677,11 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo.gif);
+        background-image: url(../Images/logo-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 85px;
-        width: 75px;
+        height: 60px;
+        width: 200px;
         position: absolute;
         left: 50%;
         top: 7px;
@@ -721,7 +721,7 @@ marquee {
     }
 
     .header .center {
-        width: 100px;
+        width: 210px;
     }
 
     /*--- footer ---*/
@@ -759,7 +759,7 @@ marquee {
     }
 
     .wrapper {
-        background-image: url(../Images/bg.png);
+        background-image: url(../Images/bg-original.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
