@@ -51,7 +51,7 @@ p {
 
 /*--- header ---*/
 .header {
-    height: 65px;
+    height: 80px;
     width: 100%;
     position: relative;
     background-color: #000;
@@ -112,7 +112,7 @@ p {
 }
 
 .header .right .container-right img {
-    width: 18px;
+    width: 23px;
     margin: 0 5px;
 }
 
@@ -636,7 +636,7 @@ marquee {
         background-image: url(../Images/logo.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 65px;
+        height: 90px;
         width: 80px;
         position: absolute;
         left: 50%;
@@ -680,7 +680,7 @@ marquee {
         background-image: url(../Images/logo.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 60px;
+        height: 85px;
         width: 75px;
         position: absolute;
         left: 50%;
@@ -721,7 +721,7 @@ marquee {
     }
 
     .header .center {
-        width: 75px;
+        width: 100px;
     }
 
     /*--- footer ---*/
@@ -852,7 +852,8 @@ marquee {
     }
 
     .login-register img {
-        width: 75px;
+        width: 85px;
+        margin-top: 10px;
     }
 
     .games-all {
