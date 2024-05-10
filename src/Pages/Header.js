@@ -28,8 +28,8 @@ export default function Header() {
             </div> */}
             <div className="pc">
               <div className="login-register">
-                <a href={linkLogin}><img src={login} alt="login" /></a>
-                <a href={linkRegister}><img src={register} alt="register" /></a>
+                <a href="https://game.lsm99ai.bet/login"><img src={login} alt="login" /></a>
+                <a href="https://game.lsm99ai.bet/register"><img src={register} alt="register" /></a>
               </div>
             </div>
           </div>
