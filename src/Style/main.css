@@ -25,7 +25,7 @@ p {
 }
 
 .wrapper {
-    background-image: url(../Images/bgmb-original.webp);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/bgmb-original.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -59,7 +59,7 @@ p {
 }
 
 .header .left {
-    background-image: url(../Images/header-left.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/header-left.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 39px;
@@ -70,7 +70,7 @@ p {
 }
 
 .header .right {
-    background-image: url(../Images/header-right.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/header-right.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 39px;
@@ -81,7 +81,7 @@ p {
 }
 
 .header .center {
-    background-image: url(../Images/logo-bg-mb.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/logo-bg-mb.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 50px;
@@ -127,7 +127,7 @@ p {
 }
 
 .footer .footer-section-mb {
-    background-image: url(../Images/bg-bottom-mb.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-bottom-mb.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -150,7 +150,7 @@ img.img-play-games {
     /* width: 312px; */
     width: 100%;
     /* line-height: 30px; */
-    background-image: url(../Images/marquee-bg.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/marquee-bg.png);
     color: white;
     white-space: nowrap;
     overflow: hidden;
@@ -207,7 +207,7 @@ marquee {
 }
 
 .games-menu {
-    background-image: url(../Images/games-menu-bg.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/games-menu-bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -248,7 +248,7 @@ marquee {
 
 /*--- footer gif ---*/
 .-img-wallet {
-    background-image: url(../Images/footer/original-wallet.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-wallet.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -258,7 +258,7 @@ marquee {
 }
 
 .-img-wallet:hover {
-    background-image: url(../Images/footer/original-wallet-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-wallet-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -268,7 +268,7 @@ marquee {
 }
 
 .-img-wallet:active {
-    background-image: url(../Images/footer/wallet-active.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/wallet-active.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -278,7 +278,7 @@ marquee {
 }
 
 .-img-deposit {
-    background-image: url(../Images/footer/original-deposit.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-deposit.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -288,7 +288,7 @@ marquee {
 }
 
 .-img-deposit:hover {
-    background-image: url(../Images/footer/original-deposit-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-deposit-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -298,7 +298,7 @@ marquee {
 }
 
 .-img-deposit:active {
-    background-image: url(../Images/footer/deposit-active.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/deposit-active.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -308,7 +308,7 @@ marquee {
 }
 
 .-img-play {
-    background-image: url(../Images/footer/original-play.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-play.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -318,7 +318,7 @@ marquee {
 }
 
 .-img-play:hover {
-    background-image: url(../Images/footer/original-play-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-play-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -328,7 +328,7 @@ marquee {
 }
 
 .-img-play:active {
-    background-image: url(../Images/footer/play-active.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/play-active.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -338,7 +338,7 @@ marquee {
 }
 
 .-img-affiliate {
-    background-image: url(../Images/footer/original-aff.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-aff.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -348,7 +348,7 @@ marquee {
 }
 
 .-img-affiliate:hover {
-    background-image: url(../Images/footer/original-aff-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-aff-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -358,7 +358,7 @@ marquee {
 }
 
 .-img-affiliate:active {
-    background-image: url(../Images/footer/aff-active.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/aff-active.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -369,7 +369,7 @@ marquee {
 
 
 .-img-promotion {
-    background-image: url(../Images/footer/original-promo.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-promo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,7 +379,7 @@ marquee {
 }
 
 .-img-promotion:hover {
-    background-image: url(../Images/footer/original-promo-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-promo-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -389,7 +389,7 @@ marquee {
 }
 
 .-img-promotion:active {
-    background-image: url(../Images/footer/promo-active.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/promo-active.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -400,7 +400,7 @@ marquee {
 
 
 .-gamesCasino {
-    background-image: url(../Images/menu-games/original-casino-active.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-casino-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -409,7 +409,7 @@ marquee {
 }
 
 .-gamesCasino:hover {
-    background-image: url(../Images/menu-games/original-casino-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-casino-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -418,7 +418,7 @@ marquee {
 }
 
 .-gamesCasino:active {
-    background-image: url(../Images/menu-games/original-casino.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-casino.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -428,7 +428,7 @@ marquee {
 
 
 .-gamesSlot {
-    background-image: url(../Images/menu-games/original-slot-active.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-slot-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -437,7 +437,7 @@ marquee {
 }
 
 .-gamesSlot:hover {
-    background-image: url(../Images/menu-games/original-slot-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-slot-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -446,7 +446,7 @@ marquee {
 }
 
 .-gamesSlot:active {
-    background-image: url(../Images/menu-games/original-slot.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-slot.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -456,7 +456,7 @@ marquee {
 
 
 .-gamesSport {
-    background-image: url(../Images/menu-games/original-sport-active.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-sport-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -465,7 +465,7 @@ marquee {
 }
 
 .-gamesSport:hover {
-    background-image: url(../Images/menu-games/original-sport-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-sport-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -474,7 +474,7 @@ marquee {
 }
 
 .-gamesSport:active {
-    background-image: url(../Images/menu-games/original-sport.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-sport.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -484,7 +484,7 @@ marquee {
 
 
 .-gamesLotto {
-    background-image: url(../Images/menu-games/original-lotto-active.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-lotto-active.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -493,7 +493,7 @@ marquee {
 }
 
 .-gamesLotto:hover {
-    background-image: url(../Images/menu-games/original-lotto-hover.gif);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-lotto-hover.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -502,7 +502,7 @@ marquee {
 }
 
 .-gamesLotto:active {
-    background-image: url(../Images/menu-games/original-lotto.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-lotto.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -522,7 +522,7 @@ marquee {
     justify-content: center;
     height: 43px;
     width: 80%;
-    background-image: url(../Images/bg-tab-promotion.png);
+    background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-tab-promotion.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: auto;
@@ -614,7 +614,7 @@ marquee {
     .header .left {
         height: 25px;
         width: 100%;
-        background-image: url(../Images/header-bg-mb.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -633,7 +633,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo-bg-mb.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/logo-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 90px;
@@ -667,7 +667,7 @@ marquee {
     .header .left {
         height: 25px;
         width: 100%;
-        background-image: url(../Images/header-bg-mb.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -677,7 +677,7 @@ marquee {
     }
 
     .header .center {
-        background-image: url(../Images/logo-bg-mb.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/logo-bg-mb.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 70px;
@@ -755,7 +755,7 @@ marquee {
     }
 
     .wrapper {
-        background-image: url(../Images/bg-original.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-original.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
@@ -800,7 +800,7 @@ marquee {
     }
 
     .footer .footer-section-mb {
-        background-image: url(../Images/bg-bottom-mb1.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-bottom-mb1.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -811,7 +811,7 @@ marquee {
 
     /*--- header ---*/
     .header .left {
-        background-image: url(../Images/header-left.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-left.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 39px;
@@ -822,7 +822,7 @@ marquee {
     }
 
     .header .right {
-        background-image: url(../Images/header-right.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-right.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 39px;
@@ -862,7 +862,7 @@ marquee {
     .marquee {
         width: 744px;
         /* line-height: 30px; */
-        background-image: url(../Images/marquee-bg-pc.png);
+        background-image: url(https://fs.cdnxn.com/landingAi/Images/marquee-bg-pc.png);
     }
 
     /* .marquee .marquee-text p {

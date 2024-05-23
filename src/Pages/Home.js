@@ -5,33 +5,33 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Pages/Header";
 import Footer from "../Pages/Footer";
 
-import login from "../Images/btn-login.png";
-import register from "../Images/btn-register.png";
+const login = "https://fs.cdnxn.com/landingAi/Images/btn-login.png";
+const register = "https://fs.cdnxn.com/landingAi/Images/btn-register.png";
 
-import gamesCasino from "../Images/games-btn-casino.png";
-import gamesSlot from "../Images/games-btn-slot.png";
-import gamesSport from "../Images/games-btn-sport.png";
-import gamesLotto from "../Images/games-btn-lotto.png";
+const gamesCasino = "https://fs.cdnxn.com/landingAi/Images/games-btn-casino.png";
+const gamesSlot = "https://fs.cdnxn.com/landingAi/Images/games-btn-slot.png";
+const gamesSport = "https://fs.cdnxn.com/landingAi/Images/games-btn-sport.png";
+const gamesLotto = "https://fs.cdnxn.com/landingAi/Images/games-btn-lotto.png";
 
-import line from "../Images/line.png";
+const line = "https://fs.cdnxn.com/landingAi/Images/line.png";
 
-import labelPromotion from "../Images/label-promotion.png"
-import labelPlay from "../Images/label-playgames.png"
-import promo1 from "../Images/promo1.png"
-import promo2 from "../Images/promotion/lotto1.png"
-import promo3 from "../Images/promotion/slot1.png"
+const labelPromotion = "https://fs.cdnxn.com/landingAi/Images/label-promotion.png"
+const labelPlay = "https://fs.cdnxn.com/landingAi/Images/label-playgames.png"
+const promo1 = "https://fs.cdnxn.com/landingAi/Images/promo1.png"
+const promo2 = "https://fs.cdnxn.com/landingAi/Images/promotion/lotto1.png"
+const promo3 = "https://fs.cdnxn.com/landingAi/Images/promotion/slot1.png"
 
 // casino
-import casino1 from "../Images/games/casino/allbet.png";
-import casino2 from "../Images/games/casino/bacarat.png";
-import casino3 from "../Images/games/casino/wm.png";
-import casino4 from "../Images/games/casino/sa.png";
-import casino5 from "../Images/games/casino/dg.png";
-import casino6 from "../Images/games/casino/pretty.png";
-import casino7 from "../Images/games/casino/playtech.png";
-import casino8 from "../Images/games/casino/xg.png";
-import casino9 from "../Images/games/casino/pp.png";
-import casino10 from "../Images/games/casino/skywind.png";
+const casino1 = "https://fs.cdnxn.com/landingAi/Images/games/casino/allbet.png";
+const casino2 = "https://fs.cdnxn.com/landingAi/Images/games/casino/bacarat.png";
+const casino3 = "https://fs.cdnxn.com/landingAi/Images/games/casino/wm.png";
+const casino4 = "https://fs.cdnxn.com/landingAi/Images/games/casino/sa.png";
+const casino5 = "https://fs.cdnxn.com/landingAi/Images/games/casino/dg.png";
+const casino6 = "https://fs.cdnxn.com/landingAi/Images/games/casino/pretty.png";
+const casino7 = "https://fs.cdnxn.com/landingAi/Images/games/casino/playtech.png";
+const casino8 = "https://fs.cdnxn.com/landingAi/Images/games/casino/xg.png";
+const casino9 = "https://fs.cdnxn.com/landingAi/Images/games/casino/pp.png";
+const casino10 = "https://fs.cdnxn.com/landingAi/Images/games/casino/skywind.png";
 
 
 

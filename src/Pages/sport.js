@@ -5,31 +5,31 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Pages/Header";
 import Footer from "../Pages/Footer";
 
-import login from "../Images/btn-login.png";
-import register from "../Images/btn-register.png";
+const login = "https://fs.cdnxn.com/landingAi/Images/btn-login.png";
+const register = "https://fs.cdnxn.com/landingAi/Images/btn-register.png";
 
-import gamesCasino from "../Images/games-btn-casino.png";
-import gamesSlot from "../Images/games-btn-slot.png";
-import gamesSport from "../Images/games-btn-sport.png";
-import gamesLotto from "../Images/games-btn-lotto.png";
+const gamesCasino = "https://fs.cdnxn.com/landingAi/Images/games-btn-casino.png";
+const gamesSlot = "https://fs.cdnxn.com/landingAi/Images/games-btn-slot.png";
+const gamesSport = "https://fs.cdnxn.com/landingAi/Images/games-btn-sport.png";
+const gamesLotto = "https://fs.cdnxn.com/landingAi/Images/games-btn-lotto.png";
 
-import line from "../Images/line.png";
+const line = "https://fs.cdnxn.com/landingAi/Images/line.png";
 
-import labelPromotion from "../Images/label-promotion.png"
-import labelPlay from "../Images/label-playgames.png"
-import promo1 from "../Images/promotion/prosport1.png"
-import promo2 from "../Images/promotion/prosport2.png"
-import promo3 from "../Images/promotion/prosport3.png"
-import promo4 from "../Images/promotion/prosport4.png"
+const labelPromotion = "https://fs.cdnxn.com/landingAi/Images/label-promotion.png"
+const labelPlay = "https://fs.cdnxn.com/landingAi/Images/label-playgames.png"
+const promo1 = "https://fs.cdnxn.com/landingAi/Images/promotion/prosport1.png"
+const promo2 = "https://fs.cdnxn.com/landingAi/Images/promotion/prosport2.png"
+const promo3 = "https://fs.cdnxn.com/landingAi/Images/promotion/prosport3.png"
+const promo4 = "https://fs.cdnxn.com/landingAi/Images/promotion/prosport4.png"
 
 //sport
-import sport1 from "../Images/games/sport/3sign.png";
-import sport2 from "../Images/games/sport/lsm99.png";
-import sport3 from "../Images/games/sport/mpy.png";
-import sport4 from "../Images/games/sport/pinn.png";
-import sport5 from "../Images/games/sport/saba.png";
-import sport6 from "../Images/games/sport/sbo.png";
-import sport7 from "../Images/games/sport/slsm.png";
+const sport1 = "https://fs.cdnxn.com/landingAi/Images/games/sport/3sign.png";
+const sport2 = "https://fs.cdnxn.com/landingAi/Images/games/sport/lsm99.png";
+const sport3 = "https://fs.cdnxn.com/landingAi/Images/games/sport/mpy.png";
+const sport4 = "https://fs.cdnxn.com/landingAi/Images/games/sport/pinn.png";
+const sport5 = "https://fs.cdnxn.com/landingAi/Images/games/sport/saba.png";
+const sport6 = "https://fs.cdnxn.com/landingAi/Images/games/sport/sbo.png";
+const sport7 = "https://fs.cdnxn.com/landingAi/Images/games/sport/slsm.png";
 
 
 export default function Sport() {

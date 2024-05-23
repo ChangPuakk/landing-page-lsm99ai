@@ -5,54 +5,54 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Pages/Header";
 import Footer from "../Pages/Footer";
 
-import login from "../Images/btn-login.png";
-import register from "../Images/btn-register.png";
+const login = "https://fs.cdnxn.com/landingAi/Images/btn-login.png";
+const register = "https://fs.cdnxn.com/landingAi/Images/btn-register.png";
 
-import gamesCasino from "../Images/games-btn-casino.png";
-import gamesSlot from "../Images/games-btn-slot.png";
-import gamesSport from "../Images/games-btn-sport.png";
-import gamesLotto from "../Images/games-btn-lotto.png";
+const gamesCasino = "https://fs.cdnxn.com/landingAi/Images/games-btn-casino.png";
+const gamesSlot = "https://fs.cdnxn.com/landingAi/Images/games-btn-slot.png";
+const gamesSport = "https://fs.cdnxn.com/landingAi/Images/games-btn-sport.png";
+const gamesLotto = "https://fs.cdnxn.com/landingAi/Images/games-btn-lotto.png";
 
-import line from "../Images/line.png";
+const line = "https://fs.cdnxn.com/landingAi/Images/line.png";
 
-import labelPromotion from "../Images/label-promotion.png"
-import labelPlay from "../Images/label-playgames.png"
+const labelPromotion = "https://fs.cdnxn.com/landingAi/Images/label-promotion.png"
+const labelPlay = "https://fs.cdnxn.com/landingAi/Images/label-playgames.png"
 
 
-import promo1 from "../Images/promotion/proslot1.png"
-import promo2 from "../Images/promotion/proslot2.png"
-import promo3 from "../Images/promotion/proslot3.png"
-import promo4 from "../Images/promotion/proslot4.png"
-import promo5 from "../Images/promotion/proslot5.png"
+const promo1 = "https://fs.cdnxn.com/landingAi/Images/promotion/proslot1.png"
+const promo2 = "https://fs.cdnxn.com/landingAi/Images/promotion/proslot2.png"
+const promo3 = "https://fs.cdnxn.com/landingAi/Images/promotion/proslot3.png"
+const promo4 = "https://fs.cdnxn.com/landingAi/Images/promotion/proslot4.png"
+const promo5 = "https://fs.cdnxn.com/landingAi/Images/promotion/proslot5.png"
 
 //slot
-// import slot1 from "../Images/games/slot/ae.png";
-// import slot2 from "../Images/games/slot/allbet.png";
-import slot3 from "../Images/games/slot/ap.png";
-// import slot4 from "../Images/games/slot/bacarat.png";
-import slot5 from "../Images/games/slot/cg.png";
-// import slot6 from "../Images/games/slot/dg.png";
-import slot7 from "../Images/games/slot/ebet.png";
-import slot8 from "../Images/games/slot/evo.png";
-import slot9 from "../Images/games/slot/gw.png";
-import slot10 from "../Images/games/slot/hotgraph.png";
-import slot11 from "../Images/games/slot/jili.png";
-import slot12 from "../Images/games/slot/joker.png";
-import slot13 from "../Images/games/slot/ka.png";
-import slot14 from "../Images/games/slot/kingmaker.png";
-import slot15 from "../Images/games/slot/mg.png";
-import slot16 from "../Images/games/slot/mp.png";
-import slot17 from "../Images/games/slot/naga.png";
-import slot18 from "../Images/games/slot/next.png";
-import slot19 from "../Images/games/slot/pg.png";
-import slot20 from "../Images/games/slot/playstar.png";
-// import slot21 from "../Images/games/slot/pp.png";
-// import slot22 from "../Images/games/slot/pretty.png";
-import slot23 from "../Images/games/slot/righ88.png";
-import slot24 from "../Images/games/slot/sg.png";
-// import slot25 from "../Images/games/slot/skywind.png";
-import slot26 from "../Images/games/slot/sp.png";
-// import slot27 from "../Images/games/slot/xg.png";
+// const slot1 = "https://fs.cdnxn.com/landingAi/Images/games/slot/ae.png";
+// const slot2 = "https://fs.cdnxn.com/landingAi/Images/games/slot/allbet.png";
+const slot3 = "https://fs.cdnxn.com/landingAi/Images/games/slot/ap.png";
+// const slot4 = "https://fs.cdnxn.com/landingAi/Images/games/slot/bacarat.png";
+const slot5 = "https://fs.cdnxn.com/landingAi/Images/games/slot/cg.png";
+// const slot6 = "https://fs.cdnxn.com/landingAi/Images/games/slot/dg.png";
+const slot7 = "https://fs.cdnxn.com/landingAi/Images/games/slot/ebet.png";
+const slot8 = "https://fs.cdnxn.com/landingAi/Images/games/slot/evo.png";
+const slot9 = "https://fs.cdnxn.com/landingAi/Images/games/slot/gw.png";
+const slot10 = "https://fs.cdnxn.com/landingAi/Images/games/slot/hotgraph.png";
+const slot11 = "https://fs.cdnxn.com/landingAi/Images/games/slot/jili.png";
+const slot12 = "https://fs.cdnxn.com/landingAi/Images/games/slot/joker.png";
+const slot13 = "https://fs.cdnxn.com/landingAi/Images/games/slot/ka.png";
+const slot14 = "https://fs.cdnxn.com/landingAi/Images/games/slot/kingmaker.png";
+const slot15 = "https://fs.cdnxn.com/landingAi/Images/games/slot/mg.png";
+const slot16 = "https://fs.cdnxn.com/landingAi/Images/games/slot/mp.png";
+const slot17 = "https://fs.cdnxn.com/landingAi/Images/games/slot/naga.png";
+const slot18 = "https://fs.cdnxn.com/landingAi/Images/games/slot/next.png";
+const slot19 = "https://fs.cdnxn.com/landingAi/Images/games/slot/pg.png";
+const slot20 = "https://fs.cdnxn.com/landingAi/Images/games/slot/playstar.png";
+// const slot21 = "https://fs.cdnxn.com/landingAi/Images/games/slot/pp.png";
+// const slot22 = "https://fs.cdnxn.com/landingAi/Images/games/slot/pretty.png";
+const slot23 = "https://fs.cdnxn.com/landingAi/Images/games/slot/righ88.png";
+const slot24 = "https://fs.cdnxn.com/landingAi/Images/games/slot/sg.png";
+// const slot25 = "https://fs.cdnxn.com/landingAi/Images/games/slot/skywind.png";
+const slot26 = "https://fs.cdnxn.com/landingAi/Images/games/slot/sp.png";
+// const slot27 = "https://fs.cdnxn.com/landingAi/Images/games/slot/xg.png";
 
 
 export default function Slot() {

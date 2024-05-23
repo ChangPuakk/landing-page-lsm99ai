@@ -5,24 +5,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Pages/Header";
 import Footer from "../Pages/Footer";
 
-import login from "../Images/btn-login.png";
-import register from "../Images/btn-register.png";
+const login = "https://fs.cdnxn.com/landingAi/Images/btn-login.png";
+const register = "https://fs.cdnxn.com/landingAi/Images/btn-register.png";
 
-import gamesCasino from "../Images/games-btn-casino.png";
-import gamesSlot from "../Images/games-btn-slot.png";
-import gamesSport from "../Images/games-btn-sport.png";
-import gamesLotto from "../Images/games-btn-lotto.png";
+const gamesCasino = "https://fs.cdnxn.com/landingAi/Images/games-btn-casino.png";
+const gamesSlot = "https://fs.cdnxn.com/landingAi/Images/games-btn-slot.png";
+const gamesSport = "https://fs.cdnxn.com/landingAi/Images/games-btn-sport.png";
+const gamesLotto = "https://fs.cdnxn.com/landingAi/Images/games-btn-lotto.png";
 
-import line from "../Images/line.png";
+const line = "https://fs.cdnxn.com/landingAi/Images/line.png";
 
-import labelPromotion from "../Images/label-promotion.png"
-import labelPlay from "../Images/label-playgames.png"
-import promo1 from "../Images/promotion/prolotto1.png"
+const labelPromotion = "https://fs.cdnxn.com/landingAi/Images/label-promotion.png"
+const labelPlay = "https://fs.cdnxn.com/landingAi/Images/label-playgames.png"
+const promo1 = "https://fs.cdnxn.com/landingAi/Images/promotion/prolotto1.png"
 
 //lotto
-import lotto1 from "../Images/games/lotto/lotto.png";
-import lotto2 from "../Images/games/lotto/lottoexit.png";
-import lotto3 from "../Images/games/lotto/qq.png";
+const lotto1 = "https://fs.cdnxn.com/landingAi/Images/games/lotto/lotto.png";
+const lotto2 = "https://fs.cdnxn.com/landingAi/Images/games/lotto/lottoexit.png";
+const lotto3 = "https://fs.cdnxn.com/landingAi/Images/games/lotto/qq.png";
 
 
 export default function Lotto() {
