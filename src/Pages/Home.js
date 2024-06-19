@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Style/main.css";
-import { Container, Row, Col, Tab, Tabs } from 'react-bootstrap';
+import { Container, Row, Col, Tab, Tabs } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Pages/Header";
 import Footer from "../Pages/Footer";
@@ -8,36 +8,41 @@ import Footer from "../Pages/Footer";
 const login = "https://fs.cdnxn.com/landingAi/Images/btn-login.png";
 const register = "https://fs.cdnxn.com/landingAi/Images/btn-register.png";
 
-const gamesCasino = "https://fs.cdnxn.com/landingAi/Images/games-btn-casino.png";
+const gamesCasino =
+  "https://fs.cdnxn.com/landingAi/Images/games-btn-casino.png";
 const gamesSlot = "https://fs.cdnxn.com/landingAi/Images/games-btn-slot.png";
 const gamesSport = "https://fs.cdnxn.com/landingAi/Images/games-btn-sport.png";
 const gamesLotto = "https://fs.cdnxn.com/landingAi/Images/games-btn-lotto.png";
 
 const line = "https://fs.cdnxn.com/landingAi/Images/line.png";
 
-const labelPromotion = "https://fs.cdnxn.com/landingAi/Images/label-promotion.png"
-const labelPlay = "https://fs.cdnxn.com/landingAi/Images/label-playgames.png"
-const promo1 = "https://fs.cdnxn.com/landingAi/Images/promo1.png"
-const promo2 = "https://fs.cdnxn.com/landingAi/Images/promotion/lotto1.png"
-const promo3 = "https://fs.cdnxn.com/landingAi/Images/promotion/slot1.png"
+const labelPromotion =
+  "https://fs.cdnxn.com/landingAi/Images/label-promotion.png";
+const labelPlay = "https://fs.cdnxn.com/landingAi/Images/label-playgames.png";
+const promo1 = "https://fs.cdnxn.com/landingAi/Images/promo1.png";
+const promo2 = "https://fs.cdnxn.com/landingAi/Images/promotion/lotto1.png";
+const promo3 = "https://fs.cdnxn.com/landingAi/Images/promotion/slot1.png";
 
 // casino
 const casino1 = "https://fs.cdnxn.com/landingAi/Images/games/casino/allbet.png";
-const casino2 = "https://fs.cdnxn.com/landingAi/Images/games/casino/bacarat.png";
+const casino2 =
+  "https://fs.cdnxn.com/landingAi/Images/games/casino/bacarat.png";
 const casino3 = "https://fs.cdnxn.com/landingAi/Images/games/casino/wm.png";
 const casino4 = "https://fs.cdnxn.com/landingAi/Images/games/casino/sa.png";
 const casino5 = "https://fs.cdnxn.com/landingAi/Images/games/casino/dg.png";
 const casino6 = "https://fs.cdnxn.com/landingAi/Images/games/casino/pretty.png";
-const casino7 = "https://fs.cdnxn.com/landingAi/Images/games/casino/playtech.png";
+const casino7 =
+  "https://fs.cdnxn.com/landingAi/Images/games/casino/playtech.png";
 const casino8 = "https://fs.cdnxn.com/landingAi/Images/games/casino/xg.png";
 const casino9 = "https://fs.cdnxn.com/landingAi/Images/games/casino/pp.png";
-const casino10 = "https://fs.cdnxn.com/landingAi/Images/games/casino/skywind.png";
-
-
+const casino10 =
+  "https://fs.cdnxn.com/landingAi/Images/games/casino/skywind.png";
 
 export default function Home() {
   const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
-  const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.asia/register");
+  const [linkRegister, setLinkRegister] = useState(
+    "https://game.lsm99ai.asia/register"
+  );
   return (
     <>
       <div>
@@ -46,7 +51,12 @@ export default function Home() {
           <div className="main">
             <div className="pc">
               <div class="marquee">
-                <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
+                <marquee>
+                  <p>
+                    ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span>{" "}
+                    เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%
+                  </p>
+                </marquee>
                 {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
               </div>
             </div>
@@ -54,27 +64,48 @@ export default function Home() {
               <div className="left">
                 <div className="mobile">
                   <div class="marquee">
-                    <marquee><p>ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span> เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></marquee>
+                    <marquee>
+                      <p>
+                        ยินดีต้อนรับสู่ <span className="hotpink">LSM99AI</span>{" "}
+                        เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%
+                      </p>
+                    </marquee>
                     {/* <div class="marquee-text"><p>ยินดีต้อนรับสู่ LSM99AI เล่นสล็อตวันนี้ รับโบนัสเพิ่มทันที 50%</p></div> */}
                   </div>
                 </div>
 
                 <div className="mobile">
                   <div className="login-register">
-                    <a href="https://game.lsm99ai.bet/login"><img src={login} alt="login" /></a>
-                    <a href="https://game.lsm99ai.bet/register"><img src={register} alt="register" /></a>
+                    <a href="https://game.lsm99ai.bet/login">
+                      <img src={login} alt="login" />
+                    </a>
+                    <a href="https://game.lsm99ai.bet/register">
+                      <img src={register} alt="register" />
+                    </a>
                   </div>
                 </div>
 
                 <div className="pc">
-                  <img src={labelPlay} alt="play" className="labels labelsPlay" />
+                  <img
+                    src={labelPlay}
+                    alt="play"
+                    className="labels labelsPlay"
+                  />
                 </div>
 
                 <div className="games-menu">
-                  <a href="/casino"><div className="-gamesCasino"></div></a>
-                  <a href="/slot"><div className="-gamesSlot"></div></a>
-                  <a href="/sport"><div className="-gamesSport"></div></a>
-                  <a href="/lotto"><div className="-gamesLotto"></div></a>
+                  <a href="/casino">
+                    <div className="-gamesCasino"></div>
+                  </a>
+                  <a href="/slot">
+                    <div className="-gamesSlot"></div>
+                  </a>
+                  <a href="/sport">
+                    <div className="-gamesSport"></div>
+                  </a>
+                  <a href="/lotto">
+                    <div className="-gamesLotto"></div>
+                  </a>
                 </div>
 
                 <div className="games-all">
@@ -91,19 +122,28 @@ export default function Home() {
                 </div>
 
                 <div className="mobile">
-                  <div className="line"><a href="https://lin.ee/izXwWe4" target="_blank"><img src={line} alt="line" /></a></div>
+                  <div className="line">
+                    <a href="https://lin.ee/izXwWe4" target="_blank">
+                      <img src={line} alt="line" />
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="right pc">
-                <a href="/promotion"><img src={labelPromotion} alt="โปรโมชั่น" className="labels labelsPromotion" /></a>
+                <a href="/promotion">
+                  <img
+                    src={labelPromotion}
+                    alt="โปรโมชั่น"
+                    className="labels labelsPromotion"
+                  />
+                </a>
                 <div className="promotionlist">
                   <img src={promo1} alt="promo1" />
-                  <img src={promo1} alt="promo1" />
-                  <img src={promo1} alt="promo1" />
+                  <img src={promo2} alt="promo1" />
+                  <img src={promo3} alt="promo1" />
                 </div>
               </div>
             </div>
-
           </div>
           <Footer />
         </div>
