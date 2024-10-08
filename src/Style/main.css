@@ -16,7 +16,7 @@
 body {
     margin: 0;
     position: relative;
-    font-family: "sukhumvitSetMedium";
+    font-family: "sukhumvitSetMedium" !important;
     color: #fff !important;
 }
 
@@ -25,7 +25,7 @@ p {
 }
 
 .wrapper {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/bgmb-original.webp);
+    background-image: url(../Images/new-ai/bg-pc.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -36,928 +36,158 @@ p {
     overflow-y: scroll;
 }
 
-.container {
-    width: 328px;
+/* new-ai */
+
+.container-box {
+    width: 1340px;
     margin: auto;
 }
 
-.home {
-    margin-bottom: 10rem;
-}
-
-.tab-content {
-    padding-bottom: 7rem;
-}
-
-/*--- header ---*/
-.header {
-    height: 80px;
+img {
     width: 100%;
-    position: relative;
-    background-color: #000;
-    margin-bottom: 0.8rem;
 }
 
-.header .left {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/header-left.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 39px;
-    width: 44%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.header .right {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/header-right.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 39px;
-    width: 44%;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.header .center {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/logo-bg-mb.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 246px;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0);
-    text-align: center;
-}
-
-.header .left .container-left {
-    margin-top: 3rem;
-    font-size: 9px;
-    line-height: 13px;
-    margin-left: 1rem;
-}
-
-.header .left .container-left .credit span {
-    margin-left: 3px;
-}
-
-.header .right .container-right {
+.flex-container {
     display: flex;
-    justify-content: end;
-    margin-top: 2.1rem;
-    margin-right: 0.5rem;
-}
-
-.header .right .container-right img {
-    width: 23px;
-    margin: 0 5px;
-}
-
-
-
-
-/*--- footer ---*/
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer .footer-section-mb {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-bottom-mb.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 85px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.footer .footer-section-mb img {
-    width: 70px;
-}
-
-img.img-play-games {
-    width: 84px !important;
-}
-
-
-/*--- marquee ---*/
-.marquee {
-    /* width: 312px; */
-    width: 100%;
-    /* line-height: 30px; */
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/marquee-bg.png);
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    background-size: 100% 100%;
-    font-size: 7px;
-    margin: 1rem auto;
-}
-
-.marquee .marquee-text p {
-    display: inline-block;
-    padding-left: 240px;
-    /* animation: marquee 10s linear infinite; */
-}
-
-/* @keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
-} */
-/* marquee {
-    margin: 10px 0 0 0;
-} */
-.marquee-text {
-    width: 250px;
-    margin-left: 1rem;
-    position: relative;
-}
-
-.marquee marquee p {
-    margin: 15px 0 10px;
-    font-size: 11px;
-}
-
-.promotion .marquee marquee p {
-    padding: 0.5rem 0 0.5rem;
-    font-family: "sukhumvitSetMedium";
-}
-
-marquee {
-    width: 85%;
-    margin: 0 0 0 20px;
-}
-
-
-/*--- home ---*/
-.login-register {
-    display: flex;
-    justify-content: space-evenly;
-    margin: .5rem 0;
-}
-
-.login-register img {
-    width: 128px;
-}
-
-.games-menu {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/games-menu-bg.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 99.5px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.games-menu img {
-    width: 60px;
-    height: 79px;
-    margin-top: 5px;
-}
-
-.games-all {
-    text-align: center;
-
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin: 0 20px;
-}
-
-.games-all img {
-    width: 100%;
-    display: inline-block;
-}
-
-.line {
-    text-align: center;
-}
-
-.line img {
-    width: 98%;
-    margin: auto;
-}
-
-
-/*--- footer gif ---*/
-.-img-wallet {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-wallet.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-wallet:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-wallet-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-wallet:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/wallet-active.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-deposit {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-deposit.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-deposit:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-deposit-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-deposit:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/deposit-active.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-play {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-play.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-play:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-play-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-play:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/play-active.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-affiliate {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-aff.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-affiliate:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-aff-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-affiliate:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/aff-active.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-
-.-img-promotion {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-promo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-promotion:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/original-promo-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-.-img-promotion:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/footer/promo-active.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 82px;
-    height: 96px;
-    margin: -20px -5px 0;
-}
-
-
-.-gamesCasino {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-casino-active.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesCasino:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-casino-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesCasino:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-casino.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-
-.-gamesSlot {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-slot-active.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesSlot:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-slot-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesSlot:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-slot.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-
-.-gamesSport {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-sport-active.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesSport:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-sport-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesSport:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-sport.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-
-.-gamesLotto {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-lotto-active.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesLotto:hover {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-lotto-hover.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-.-gamesLotto:active {
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/menu-games/original-lotto.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 62px;
-    height: 88px;
-}
-
-
-/*--- promotion ---*/
-.promotion .games-menu {
-    display: block;
-    background-image: none;
-
-}
-
-.promotion ul.nav.nav-tabs {
     justify-content: center;
-    height: 43px;
-    width: 80%;
-    background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-tab-promotion.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* section-start */
+.img-start-logo {
+    max-width: 350px;
+    width: 100%;
     margin: auto;
-    border-bottom: 0;
 }
 
-.promotion .games-menu .tab-content .games img {
-    height: auto;
+.section-start-banner {
+    max-width: 752px;
+    width: 100%;
+    margin: auto;
 }
 
-.promotion .games-menu .tab-content {
-    margin: 1rem auto;
-    width: 80%;
-}
-
-.nav-tabs .nav-item.show .nav-link {
-    color: #fff !important;
-    background-color: transparent !important;
-    border-color: transparent !important;
-    ;
-}
-
-.nav-tabs .nav-link.active {
-    color: #fff !important;
-    background-color: transparent !important;
-    border-color: transparent !important;
-    opacity: 1 !important;
-}
-
-.nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {
-    border-color: transparent !important;
-    opacity: 1 !important;
-}
-
-.nav-link {
-    color: #fff !important;
-    opacity: .5 !important;
-}
-
-.promotion .marquee {
-    line-height: 0;
-    margin: 1rem auto;
-}
-
-.promotion .games-menu {
-    height: 100dvh;
-}
-
-.hotpink {
-    color: hotpink;
+.section-start-text h1 {
+    color: #FFF;
+    font-size: 32px;
     font-weight: 700;
-    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    margin-top: 2rem;
 }
 
-
-
-/*--- footer ---*/
-.line {
+.section-start-text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
-.promotion ul.nav.nav-tabs {
+/* section-menu */
+.menu-flex img {
+    width: 380px;
+}
+
+.menu-flex {
+    display: flex;
     justify-content: center;
-    height: 32px;
-    width: 80%;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* section-title */
+.box-bg-title {
+    background-image: url(../Images/new-ai/box-bg-title.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin: auto;
-    border-bottom: 0;
-    font-size: 9px;
-    font-family: "sukhumvitSetMedium";
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
 }
 
+.bg-title {
+    background-image: url(../Images/new-ai/bg-title.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    Width: 462px;
+    Height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 33.313px;
+    font-weight: 700;
+}
 
+/* section-promotion */
+.promotion-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+    margin-top: 32px;
+}
 
-.pc {
+.promotion-banner,
+.promotion-banner-mini {
+    width: 638px;
+}
+
+.promotion-text {
+    background-image: url(../Images/new-ai/bg-text-promotion.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 492.15px;
+    padding: 36px;
+}
+
+.promotion-text-box {
+    height: 430px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.splide__pagination__page.is-active {
+    background: #fff;
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.splide__pagination__page.is-active {
+    background: #ffffff00 !important;
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.splide__pagination__page.is-active {
+    background-image: url(../Images/new-ai/splide-active.png) !important;
+    background-size: 100% 100% !important;
+    opacity: 1 !important;
+    width: 72.063px !important;
+    height: 13.512px !important;
+    margin: 0rem 1rem !important;
+}
+
+.splide__pagination {
+    bottom: -2em !important;
+    gap: 0px !important;
+}
+
+.splide__pagination__page {
+    background: url(../Images/new-ai/splide.png) !important;
+    background-size: 100% 100% !important;
+    border-radius: 0px !important;
+    width: 36.031px !important;
+    height: 13.512px !important;
+}
+
+.promotion-banner-mini .splide__pagination {
     display: none;
 }
 
-.mobile {
-    display: block;
-}
-
-@media only screen and (max-width: 360px) {
-
-    /*--- Header ---*/
-    .header .left {
-        height: 25px;
-        width: 100%;
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-bg-mb.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-
-    .header .right {
-        background-image: none;
-    }
-
-    .header .center {
-        top: 10px;
-    }
-
-    .header .left .container-left {
-        margin-top: 1.8rem;
-        width: 140px;
-    }
-
-    .header .center {
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/logo-bg-mb.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 90px;
-        width: 80px;
-        position: absolute;
-        left: 50%;
-        top: 7px;
-        transform: translate(-50%, 0);
-        text-align: center;
-    }
-
-    .header .left .container-left {
-        margin-left: 0.5rem;
-    }
-
-
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 360px) {
-
-    /*--- footer ---*/
-    .line,
-    .line img {
-        width: 100%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    /*--- header ---*/
-    .header .left {
-        height: 25px;
-        width: 100%;
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-bg-mb.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-
-    .header .right {
-        background-image: none;
-    }
-
-    .header .center {
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/logo-bg-mb.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 70px;
-        width: 240px;
-        position: absolute;
-        left: 50%;
-        top: 7px;
-        transform: translate(-50%, 0);
-        text-align: center;
-    }
-
-    .header .left .container-left {
-        margin-top: 2rem;
-    }
-
-    .games-all img {
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 400px) {
-    .promotion ul.nav.nav-tabs {
-        justify-content: center;
-        height: 40px;
-        width: 80%;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin: auto;
-        border-bottom: 0;
-        font-size: 12px;
-        padding-top: 4px;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-    /*--- header ---*/
-    .header .left {
-        height: 30px;
-    }
-
-    /*--- footer ---*/
-    .footer .footer-section-mb {
-        justify-content: center;
-    }
-
-
-    .promotion ul.nav.nav-tabs {
-        height: 43px;
-        font-size: 17px;
-    }
-}
-
-@media only screen and (min-width: 1700px) {
-    .footer .footer-section-mb {
-        padding: 0 30rem;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .pc {
-        display: block;
-    }
-
-    .mobile {
-        display: none;
-    }
-
-    .container {
-        width: 750px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .wrapper {
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-original.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100%;
-        width: 100%;
-        /* height: 100lvh;
-        width: 100lvw; */
-        position: fixed;
-        overflow-y: scroll;
-    }
-
-    /*--- home ---*/
-    .home .games-all img {
-        width: 100%;
-        display: inline-block;
-    }
-
-    .home .left {
-        width: calc(100% - 225px);
-    }
-
-    .home .right.pc {
-        width: 225px;
-        text-align: center;
-    }
-
-    .home .right.pc img {
-        width: 100%;
-    }
-
-    .games-menu {
-        width: 96%;
-        margin: auto;
-    }
-
-    img.labels {
-        width: 178px !important;
-        margin: 0 1rem;
-    }
-
-    .labelsPromotion {
-        margin: 0;
-    }
-
-    .footer .footer-section-mb {
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/bg-bottom-mb1.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 85px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    /*--- header ---*/
-    .header .left {
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-left.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 39px;
-        width: 44%;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-
-    .header .right {
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/header-right.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 39px;
-        width: 44%;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .header .left .container-left {
-        margin-top: 2.6rem;
-    }
-
-    .header .right .container-right {
-        margin-top: 2.5rem;
-    }
-
-    .login-register {
-        width: 175px;
-        position: absolute;
-        top: 15px;
-        left: 30%;
-    }
-
-    .login-register img {
-        width: 85px;
-        margin-top: 10px;
-    }
-
-    .games-all {
-        /* text-align: left; */
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 1rem;
-    }
-
-    .marquee {
-        width: 744px;
-        /* line-height: 30px; */
-        background-image: url(https://fs.cdnxn.com/landingAi/Images/marquee-bg-pc.png);
-    }
-
-    /* .marquee .marquee-text p {
-        display: inline-block;
-        padding-left: 100%;
-        animation: marquee 10s linear infinite;
-    } */
-    marquee p {
-        margin-top: 1rem;
-        font-size: 14px;
-    }
-
-    marquee {
-        padding: 0 2rem;
-        /* width: 84%; */
-        width: 95%;
-        margin: 0 0 0 20px;
-    }
-
-    .header .line-pc {
-        margin-top: 5px;
-    }
-
-    .promotion ul.nav.nav-tabs {
-        justify-content: space-evenly;
-    }
-
-    .footer .footer-section-mb {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-        padding: 0 21rem;
-    }
-
-    .-img-wallet:hover,
-    .-img-deposit:hover,
-    .-img-play:hover,
-    .-img-affiliate:hover,
-    .-img-promotion:hover {
-        width: 82px;
-        height: 96px;
-        margin: -1rem auto 0 auto;
-    }
-
-    .-img-wallet,
-    .-img-deposit,
-    .-img-affiliate,
-    .-img-promotion,
-    .-img-play {
-        width: 82px;
-        height: 96px;
-        margin: -1rem auto 0 auto;
-    }
-
-
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .container {
-        width: 950px;
-    }
-
-    .home .right.pc {
-        width: 316px;
-    }
-
-    .home .left {
-        width: calc(100% - 316px);
-        margin-right: 1rem;
-    }
-
-    .header .left,
-    .header .right {
-        height: 39px;
-        width: 44%;
-    }
-
-
-    .promotion ul.nav.nav-tabs {
-        width: 889px;
-        font-family: "sukhumvitSetMedium";
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .container {
-        width: 1190px;
-    }
-
-    .games-menu {
-        width: 100%;
-        height: 150px;
-        padding: 1.4rem 0 0;
-    }
+.promotion-banner-mini {
+    margin-top: 3.5rem;
 }
