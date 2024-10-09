@@ -47,14 +47,81 @@ img {
     width: 100%;
 }
 
-.flex-container {
+.flex-section-start {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+.group-container {
+    padding-top: 10rem;
+}
+
+/* section-header */
+
+.header-wrapper {
+    background-image: url(../Images/new-ai/bg-head.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 130px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.head-grou-mb {
+    display: none;
+}
+
+
+.head-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.head-logo {
+    width: 329px;
+}
+
+.head-login,
+.head-register {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 263px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.head-login {
+    background-image: url(../Images/new-ai/bg-login.png);
+}
+
+.head-register {
+    background-image: url(../Images/new-ai/bg-register.png);
+    color: #FFF;
+}
+
+.head-login span {
+    background: var(--radial-for-button, radial-gradient(76.32% 76.32% at 50% 0%, #FFF 0%, #E63E6D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* section-start */
+
 .img-start-logo {
     max-width: 350px;
     width: 100%;
@@ -84,6 +151,10 @@ img {
 }
 
 /* section-menu */
+.section-menu-custom-slider {
+    display: none;
+}
+
 .menu-flex img {
     width: 380px;
 }
@@ -123,7 +194,12 @@ img {
 }
 
 /* section-promotion */
-.promotion-box {
+
+.promotion-text span {
+    color: var(--fbe-320, #FBE320);
+}
+
+.flex-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -137,9 +213,14 @@ img {
 }
 
 .promotion-text {
-    background-image: url(../Images/new-ai/bg-text-promotion.png);
+    /* background-image: url(../Images/new-ai/bg-text-promotion.png);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    border-radius: 23.359px;
+    border-top: 5.435px solid #f157a459;
+    border-bottom: 5.435px solid #fb48a47d;
+    background: linear-gradient(359deg, #e7417173 -114.07%, rgb(0 0 0 / 48%) 214.07%);
+    box-shadow: 0px 1.998px 7.99px 0px rgba(0, 0, 0, 0.70);
     width: 492.15px;
     padding: 36px;
 }
@@ -190,4 +271,150 @@ img {
 
 .promotion-banner-mini {
     margin-top: 3.5rem;
+}
+
+/* section-games */
+
+.category .category-slot,
+.category .category-lotto,
+.category .category-casino,
+.category .category-sport {
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 66.5px;
+    height: 65.909px;
+}
+
+.category.active .category-slot,
+.category.active .category-lotto,
+.category.active .category-casino,
+.category.active .category-sport {
+    width: 105.29px;
+    height: 105.706px;
+}
+
+.category-slot {
+    background-image: url(../Images/new-ai/slot.png);
+
+}
+
+.category-lotto {
+    background-image: url(../Images/new-ai/lotto.png);
+}
+
+.category-casino {
+    background-image: url(../Images/new-ai/casino.png);
+}
+
+.category-sport {
+    background-image: url(../Images/new-ai/sport.png);
+}
+
+.icon-games {
+    width: 224.266px;
+    height: 229.422px;
+}
+
+.games-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    padding: 0px 46px;
+    margin-top: 30px;
+}
+
+.games-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.category {
+    background-image: url(../Images/new-ai/category-bg.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 112.986px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.category.active {
+    width: 156px;
+    height: 156.617px;
+    margin: auto;
+    opacity: 1;
+}
+
+.games-category {
+    background-image: url(../Images/new-ai/bg-category.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+
+/* section-question */
+.section-question-banner {
+    width: 660px;
+}
+
+.section-question-text {
+    border-radius: 23.359px;
+    border-top: 5.435px solid #f157a459;
+    border-bottom: 5.435px solid #fb48a47d;
+    background: linear-gradient(359deg, #e7417173 -114.07%, rgb(0 0 0 / 48%) 214.07%);
+    box-shadow: 0px 1.998px 7.99px 0px rgba(0, 0, 0, 0.70);
+    width: 492.15px;
+    padding: 36px;
+}
+
+.section-question .flex-container {
+    align-items: flex-end;
+}
+
+/* section-footer */
+.section-footer-group {
+    background: linear-gradient(180deg, rgb(231 65 113 / 18%) 0%, rgb(19 3 13 / 79%) 69.5%);
+    border-radius: 53.457px 53.457px 0px 0px;
+    width: 1340px;
+    margin: 11rem auto 0rem auto;
+    padding: 1.5rem 0rem;
+}
+
+.footerlogo {
+    width: 690px;
+    margin: auto;
+}
+
+.footer-text {
+    width: 900px;
+    margin: 70px auto;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 205.5%;
+}
+
+.icon-bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-bank img {
+    width: 74px;
+    height: 74px;
 }
