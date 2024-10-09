@@ -5,12 +5,11 @@ import "../Style/main.css";
 import logo from "../Images/new-ai/logo.png";
 
 export default function Header() {
-    const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
-    const [linkRegister, setLinkRegister] = useState("https://game.lsm99ai.asia/register");
-    const [linkHome, setLinkHome] = useState("/");
+    const [linkLogin] = useState("https://game.lsm99ai.asia/login");
+    const [linkRegister] = useState("https://game.lsm99ai.asia/register");
     return (
         <>
-            <div class="header-wrapper">
+            <div className="header-wrapper">
                 <div className="head-group">
                     <a href={linkLogin}>
                         <div className="head-login">
@@ -26,9 +25,9 @@ export default function Header() {
                     </a>
 
                 </div>
-                <div className="head-grou-mb">
+                <div className="head-group-mb">
                     <a href={linkLogin}>
-                        <div className="head-login-mb">เข้าสู่ระบบ</div>
+                        <div className="head-login-mb"><span>เข้าสู่ระบบ</span></div>
                     </a>
                     <a href={linkRegister}>
                         <div className="head-register-mb">สมัครสมาชิก</div>

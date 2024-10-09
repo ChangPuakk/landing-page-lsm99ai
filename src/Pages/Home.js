@@ -43,6 +43,8 @@ import iconGamesp2 from "../Images/new-ai/icon-games/sp2.png";
 import iconGamesp3 from "../Images/new-ai/icon-games/sp3.png";
 import iconGamesp4 from "../Images/new-ai/icon-games/sp4.png";
 import iconGamesp5 from "../Images/new-ai/icon-games/sp5.png";
+import iconGamesp6 from "../Images/new-ai/icon-games/sp6.png";
+import iconGamesp7 from "../Images/new-ai/icon-games/sp7.png";
 
 import iconGamel1 from "../Images/new-ai/icon-games/l1.png";
 import iconGamel2 from "../Images/new-ai/icon-games/l2.png";
@@ -61,10 +63,7 @@ import iconBank6 from "../Images/new-ai/icon-bank/b6.png";
 import iconBank7 from "../Images/new-ai/icon-bank/b7.png";
 
 export default function Home() {
-  const [linkLogin, setLinkLogin] = useState("https://game.lsm99ai.asia/login");
-  const [linkRegister, setLinkRegister] = useState(
-    "https://game.lsm99ai.asia/register"
-  );
+  const [linkLogin] = useState("https://game.lsm99ai.asia/login");
 
   const [selectedCategory, setSelectedCategory] = useState("slot");
   const [displayedGames, setDisplayedGames] = useState([]);
@@ -76,7 +75,7 @@ export default function Home() {
     slot: [iconGames1, iconGames2, iconGames3, iconGames4, iconGames5, iconGames6, iconGames7, iconGames8],
     lotto: [iconGamel1, iconGamel2, iconGamel3],
     casino: [iconGamec1, iconGamec2, iconGamec3, iconGamec4, iconGamec5, iconGamec6, iconGamec7, iconGamec8],
-    sport: [iconGamesp1, iconGamesp2, iconGamesp3, iconGamesp4, iconGamesp5],
+    sport: [iconGamesp1, iconGamesp2, iconGamesp3, iconGamesp4, iconGamesp5, iconGamesp6, iconGamesp7],
   };
 
   // Resize effect to control displayed games
@@ -190,10 +189,11 @@ export default function Home() {
           <div className="section-start container-box">
             <div className="flex-section-start">
               <div className="section-start-text">
+                <h1 className="start-text-mb" >“การเดิมพันออนไลน์ที่ทันสมัยที่สุดกับ”</h1>
                 <div className="img-start-logo">
                   <img src={logostart} alt="logo" />
                 </div>
-                <h1>“การเดิมพันออนไลน์ที่ทันสมัยที่สุดกับ”</h1>
+                <h1 className="start-text-pc" >“การเดิมพันออนไลน์ที่ทันสมัยที่สุดกับ”</h1>
                 <p>ยินดีต้อนรับสู่โลกแห่งการเดิมพันออนไลน์ที่ล้ำสมัยกว่ากับ LSM99Ai <br />
                   ที่นี่คือจุดหมายปลายทางสำหรับนักเดิมพันที่ต้องการสัมผัสประสบการณ์สุดพิเศษ</p>
               </div>

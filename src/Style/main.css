@@ -75,7 +75,7 @@ a {
     z-index: 9999;
 }
 
-.head-grou-mb {
+.head-group-mb {
     display: none;
 }
 
@@ -122,6 +122,10 @@ a {
 
 /* section-start */
 
+.start-text-mb {
+    display: none;
+}
+
 .img-start-logo {
     max-width: 350px;
     width: 100%;
@@ -166,6 +170,10 @@ a {
     gap: 1.5rem;
 }
 
+.section-menu-custom-slider .splide__pagination {
+    display: none;
+}
+
 /* section-title */
 .box-bg-title {
     background-image: url(../Images/new-ai/box-bg-title.png);
@@ -183,7 +191,8 @@ a {
     background-image: url(../Images/new-ai/bg-title.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    Width: 462px;
+    max-Width: 462px;
+    width: 100%;
     Height: 124px;
     display: flex;
     justify-content: center;
@@ -209,7 +218,8 @@ a {
 
 .promotion-banner,
 .promotion-banner-mini {
-    width: 638px;
+    max-width: 638px;
+    width: 100%;
 }
 
 .promotion-text {
@@ -221,12 +231,13 @@ a {
     border-bottom: 5.435px solid #fb48a47d;
     background: linear-gradient(359deg, #e7417173 -114.07%, rgb(0 0 0 / 48%) 214.07%);
     box-shadow: 0px 1.998px 7.99px 0px rgba(0, 0, 0, 0.70);
-    width: 492.15px;
+    max-width: 492.15px;
+    width: 100%;
     padding: 36px;
 }
 
 .promotion-text-box {
-    height: 430px;
+    height: 410px;
     overflow: auto;
     scrollbar-width: none;
 }
@@ -282,8 +293,10 @@ a {
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 66.5px;
-    height: 65.909px;
+    max-width: 66.5px;
+    max-height: 65.909px;
+    width: 100%;
+    height: 100%;
 }
 
 .category.active .category-slot,
@@ -313,7 +326,6 @@ a {
 
 .icon-games {
     width: 224.266px;
-    height: 229.422px;
 }
 
 .games-box {
@@ -346,6 +358,7 @@ a {
     justify-content: center;
     margin: auto;
     cursor: pointer;
+    font-size: 21.735px;
     opacity: 0.5;
 }
 
@@ -354,6 +367,8 @@ a {
     height: 156.617px;
     margin: auto;
     opacity: 1;
+    font-size: 24.84px;
+    color: #FBE320;
 }
 
 .games-category {
@@ -387,7 +402,8 @@ a {
 .section-footer-group {
     background: linear-gradient(180deg, rgb(231 65 113 / 18%) 0%, rgb(19 3 13 / 79%) 69.5%);
     border-radius: 53.457px 53.457px 0px 0px;
-    width: 1340px;
+    max-width: 1340px;
+    width: 100%;
     margin: 11rem auto 0rem auto;
     padding: 1.5rem 0rem;
 }
@@ -417,4 +433,251 @@ a {
 .icon-bank img {
     width: 74px;
     height: 74px;
+}
+
+@media only screen and (max-width: 1340px) {
+    .container-box {
+        width: 90%;
+    }
+
+    .promotion-text-box {
+        height: 330px;
+    }
+
+    .icon-games {
+        width: 144.266px;
+    }
+
+    .games-category {
+        padding: 2rem;
+    }
+
+    .category.active {
+        width: 126px;
+        height: 126.617px;
+    }
+
+    .games-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .menu-flex img {
+        width: 200px;
+    }
+
+    .footer-text {
+        width: 660px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+
+    .header-wrapper {
+        background-image: url(../Images/new-ai/bg-head-mb.png);
+    }
+
+    .head-login,
+    .head-register,
+    .start-text-pc {
+        display: none;
+    }
+
+    .start-text-mb {
+        display: block;
+    }
+
+    .group-container {
+        padding-top: 8rem;
+    }
+
+    .head-group-mb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .head-logo {
+        width: 230px;
+    }
+
+    .head-login-mb,
+    .head-register-mb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 215px;
+        height: 53px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .head-login-mb span {
+        background: var(--radial-for-button, radial-gradient(76.32% 76.32% at 50% 0%, #FFF 0%, #E63E6D 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .head-register-mb {
+        color: #FFF;
+    }
+
+    .flex-section-start,
+    .flex-container,
+    .games-box {
+        flex-direction: column;
+    }
+
+    .promotion-banner-mini {
+        display: none;
+    }
+
+    .games-category {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .container-box {
+        max-width: 430px;
+        width: 100%;
+        margin: auto;
+        padding: 0rem 1.5rem;
+    }
+
+    .img-start-logo {
+        max-width: 150px;
+        margin: 24px auto;
+    }
+
+    .section-start-text h1 {
+        font-size: 22.261px;
+    }
+
+    .section-start-text p {
+        font-size: 12px;
+    }
+
+    .section-start-banner {
+        max-width: 382px;
+    }
+
+    .menu-flex {
+        display: none;
+    }
+
+    .section-menu-custom-slider {
+        display: block;
+    }
+
+    .bg-title {
+        max-Width: 181px;
+        Height: 67px;
+        font-size: 18px;
+    }
+
+    .box-bg-title {
+        background-image: url(../Images/new-ai/box-bg-title-mb.png);
+        height: 73px;
+    }
+
+    .games-category {
+        background-image: url(../Images/new-ai/bg-category-mb.png);
+    }
+
+    .promotion-text {
+        margin-top: 1rem;
+        padding: 15px;
+    }
+
+    .section-question-banner {
+        width: 100%;
+    }
+
+    .games-box {
+        gap: 15px;
+        padding: 0px;
+    }
+
+    .category .category-slot,
+    .category .category-lotto,
+    .category .category-casino,
+    .category .category-sport {
+        max-width: 38.743px;
+        max-height: 38.743px;
+    }
+
+    .category.active .category-slot,
+    .category.active .category-lotto,
+    .category.active .category-casino,
+    .category.active .category-sport {
+        width: 61.239px;
+        height: 61.239px;
+    }
+
+    .category {
+        width: 66.417px;
+        height: 66.417px;
+        font-size: 10px;
+
+    }
+
+    .category.active {
+        width: 90.732px;
+        height: 90.732px;
+        font-size: 13px;
+    }
+
+    .icon-games {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .section-question-text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footerlogo {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .footer-text {
+        max-width: 310px;
+        width: 100%;
+        margin: 20px auto;
+        font-size: 12px;
+    }
+
+    .icon-bank img {
+        width: 32.16px;
+        height: 32.16px;
+    }
+
+    .promotion-text-box {
+        font-size: 12px;
+    }
+
+    .promotion-text-box {
+        height: 230px;
+    }
+
+    .section-question-text p {
+        font-size: 14px;
+    }
+
+    .splide__pagination__page {
+        width: 14.896px !important;
+        height: 5.586px !important;
+    }
+
+    .splide__pagination__page.is-active {
+        width: 29.791px !important;
+        height: 5.586px !important;
+    }
 }
