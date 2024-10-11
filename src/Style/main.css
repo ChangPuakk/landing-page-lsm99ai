@@ -308,20 +308,20 @@ a {
 }
 
 .category-slot {
-    background-image: url(../Images/new-ai/slot.png);
+    background-image: url(../Images/new-ai/slot.svg);
 
 }
 
 .category-lotto {
-    background-image: url(../Images/new-ai/lotto.png);
+    background-image: url(../Images/new-ai/lotto.svg);
 }
 
 .category-casino {
-    background-image: url(../Images/new-ai/casino.png);
+    background-image: url(../Images/new-ai/casino.svg);
 }
 
 .category-sport {
-    background-image: url(../Images/new-ai/sport.png);
+    background-image: url(../Images/new-ai/sport.svg);
 }
 
 .icon-games {
@@ -330,7 +330,7 @@ a {
 
 .games-box {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 44px;
     padding: 0px 46px;
