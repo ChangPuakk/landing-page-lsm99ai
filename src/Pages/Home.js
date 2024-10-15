@@ -28,6 +28,7 @@ import iconGames5 from "../Images/new-ai/icon-games/s5.png";
 import iconGames6 from "../Images/new-ai/icon-games/s6.png";
 import iconGames7 from "../Images/new-ai/icon-games/s7.png";
 import iconGames8 from "../Images/new-ai/icon-games/s8.png";
+import iconGames9 from "../Images/new-ai/icon-games/s9.png";
 
 import iconGamec1 from "../Images/new-ai/icon-games/c1.png";
 import iconGamec2 from "../Images/new-ai/icon-games/c2.png";
@@ -37,14 +38,13 @@ import iconGamec5 from "../Images/new-ai/icon-games/c5.png";
 import iconGamec6 from "../Images/new-ai/icon-games/c6.png";
 import iconGamec7 from "../Images/new-ai/icon-games/c7.png";
 import iconGamec8 from "../Images/new-ai/icon-games/c8.png";
+import iconGamec9 from "../Images/new-ai/icon-games/c9.png";
 
 import iconGamesp1 from "../Images/new-ai/icon-games/sp1.png";
 import iconGamesp2 from "../Images/new-ai/icon-games/sp2.png";
 import iconGamesp3 from "../Images/new-ai/icon-games/sp3.png";
 import iconGamesp4 from "../Images/new-ai/icon-games/sp4.png";
 import iconGamesp5 from "../Images/new-ai/icon-games/sp5.png";
-import iconGamesp6 from "../Images/new-ai/icon-games/sp6.png";
-import iconGamesp7 from "../Images/new-ai/icon-games/sp7.png";
 
 import iconGamel1 from "../Images/new-ai/icon-games/l1.png";
 import iconGamel2 from "../Images/new-ai/icon-games/l2.png";
@@ -72,16 +72,16 @@ export default function Home() {
   const [currentBanner, setCurrentBanner] = useState(0);
 
   const gameImages = {
-    slot: [iconGames1, iconGames2, iconGames3, iconGames4, iconGames5, iconGames6, iconGames7, iconGames8],
+    slot: [iconGames1, iconGames2, iconGames3, iconGames4, iconGames5, iconGames6, iconGames7, iconGames8, iconGames9],
     lotto: [iconGamel1, iconGamel2, iconGamel3],
-    casino: [iconGamec1, iconGamec2, iconGamec3, iconGamec4, iconGamec5, iconGamec6, iconGamec7, iconGamec8],
-    sport: [iconGamesp1, iconGamesp2, iconGamesp3, iconGamesp4, iconGamesp5, iconGamesp6, iconGamesp7],
+    casino: [iconGamec1, iconGamec2, iconGamec3, iconGamec4, iconGamec5, iconGamec6, iconGamec7, iconGamec8, iconGamec9],
+    sport: [iconGamesp1, iconGamesp2, iconGamesp3, iconGamesp4, iconGamesp5],
   };
 
   // Resize effect to control displayed games
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 1100) {
+      if (window.innerWidth < 430) {
         setDisplayedGames(gameImages[selectedCategory].slice(0, 6));
       } else {
         setDisplayedGames(gameImages[selectedCategory]);
